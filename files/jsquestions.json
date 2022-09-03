@@ -1,0 +1,398 @@
+[
+    {
+        "question": "Q1: What is JavaScript?",
+        "answer": "JavaScript is a client-side and server-side scripting language inserted into HTML pages and is understood by web browsers. JavaScript is also an Object-based Programming language."
+    },
+    {
+        "question": "Q2: Enumerate the differences between Java and JavaScript?",
+        "answer": "Java is an object-oriented programming (OOPS) or structured programming languages like C++ or C, whereas JavaScript is a client-side scripting language."
+    },
+    {
+        "question": "Q3: What are JavaScript Data Types?",
+        "answer": "The following are the JavaScript Data types: Number, String, Boolean, Object, Undefined"
+    },
+    {
+        "question": "Q4: What is the use of isNaN function?",
+        "answer": "isNan function returns true if the argument is not a number; otherwise, it is false."
+    },
+    {
+        "question": "Q5: Which is faster between JavaScript and an ASP script?",
+        "answer": "JavaScript is faster. JavaScript is a client-side language, and thus it does not need the assistance of the webserver to execute. On the other hand, ASP is a server-side language and hence is always slower than JavaScript. Javascript now is also a server-side language (nodejs)."
+    },
+    {
+        "question": "Q6: What is negative Infinity?",
+        "answer": "Negative Infinity is a number in JavaScript which can be derived by dividing negative number by zero."
+    },
+    {
+        "question": "Q7: Is it possible to break JavaScript Code into several lines?",
+        "answer": "Breaking within a string statement can be done by using a backslash at the end of the first line."
+    },
+    {
+        "question": "Q8: Which company developed JavaScript?",
+        "answer": "Netscape is the software company that developed JavaScript."
+    },
+    {
+        "question": "Q9: What are undeclared and undefined variables?",
+        "answer": "Undeclared variables are those that do not exist in a program and are not declared. If the program tries to read the value of an undeclared variable, then a runtime error is encountered. Undefined variables are those that are declared in the program but have not been given any value. If the program tries to read the value of an undefined variable, an undefined value is returned."
+    },
+    {
+        "question": "Q10: What are global variables? How are these variable declared?",
+        "answer": "Global variables are available throughout the length of the code so that it has no scope. The var keyword is used to declare a local variable or object. If the var keyword is omitted, a global variable is declared."
+    },
+    {
+        "question": "Q11: What is a prompt box?",
+        "answer": "Q: A prompt box is a box that allows the user to enter input by providing a text box. A label and box will be provided to enter the text or number."
+    },
+    {
+        "question": "Q12: What is ‘this’ keyword in JavaScript?",
+        "answer": "‘This’ keyword refers to the object from where it was called."
+    },
+    {
+        "question": "Q13: What is the working of timers in JavaScript? ",
+        "answer": "Timers are used to execute a piece of code at a set time or repeat the code in a given interval. This is done by using the functions setTimeout, setInterval, and clearInterval."
+    },
+    {
+        "question": "Q14: Which symbol is used for comments in Javascript?",
+        "answer": "// for Single line comments and /* Multi Line Comment*/"
+    },
+    {
+        "question": "Q15: What is the difference between ViewState and SessionState?",
+        "answer": "‘ViewState’ is specific to a page in a session.‘SessionState’ is specific to user-specific data that can be accessed across all web application pages."
+    },
+    {
+        "question": "Q16: What is === operator?",
+        "answer": "=== is called a strict equality operator, which returns true when the two operands have the same value without conversion."
+    },
+    {
+        "question": "Q17: How you can submit a form using JavaScript?",
+        "answer": "To submit a form using JavaScript use: document.form[0].submit();"
+    },
+    {
+        "question": "Q18: Does JavaScript support automatic type conversion?",
+        "answer": "Yes, JavaScript does support automatic type conversion. It is the common way of type conversion used by JavaScript developers."
+    },
+    {
+        "question": "Q19: How can the style/class of an element be changed?",
+        "answer": "It can be done in the following way: document.getElementById('myText').style.fontSize = '20';"
+    },
+    {
+        "question": "Q20: How to read and write a file using JavaScript?",
+        "answer": "There are two ways to read and write a file using JavaScript: 1 - Using JavaScript extensions. 2 - Using a web page and Active X objects."
+    },
+    {
+        "question": "Q21: What are all the looping structures in JavaScript?",
+        "answer": "For - While - Do-while loops"
+    },
+    {
+        "question": "Q22: What is called Variable typing in Javascript?",
+        "answer": "Variable typing is used to assign a number to a variable. The same variable can be assigned to a string."
+    },
+    {
+        "question": "Q23: How can you convert the string of any base to an integer in JavaScript?",
+        "answer": "The parseInt() function is used to convert numbers between different bases. parseInt() takes the string to be converted as its first parameter. The second parameter is the base of the given string. To convert 4F (or base 16) to integer, the code used will be – parseInt ('4F', 16);"
+    },
+    {
+        "question": "Q24: Difference between “==” and “===”?",
+        "answer": "“==” checks only for equality in value, whereas “===” is a stricter equality test and returns false if either the value or the type of the two variables are different."
+    },
+    {
+        "question": "Q25: What would be the result of 3+2+”7″?",
+        "answer": "Since 3 and 2 are integers, they will be added numerically. And since 7 is a string, its concatenation will be done. So the result would be 57."
+    },
+    {
+        "question": "Q26: How to detect the operating system on the client machine?",
+        "answer": "In order to detect the operating system on the client machine, the navigator. Platform string (property) should be used."
+    },
+    {
+        "question": "Q27: What do you mean by NULL in Javascript?",
+        "answer": "The NULL value is used to represent no value or no object. It implies no object or null string, no valid boolean value, no number, and no array object."
+    },
+    {
+        "question": "Q28: What is the function of the delete operator?",
+        "answer": "he delete keyword is used to delete the property as well as its value. Example: var student= {age:20, batch:'ABC'}; Delete student. age;"
+    },
+    {
+        "question": "Q29: What is an undefined value in JavaScript?",
+        "answer": "Undefined value means: 1 - The variable used in the code doesn’t exist. 2 - The variable is not assigned to any value. 3 - The property does not exist."
+    },
+    {
+        "question": "Q30: What are all the types of Pop up boxes available in JavaScript?",
+        "answer": "1 - Alert. 2 - Confirm. 3 - Prompt."
+    },
+    {
+        "question": "Q31: What is the use of Void (0)?",
+        "answer": "Void(0) is used to prevent the page from refreshing, and parameter “zero” is passed while calling. Void(0) is used to call another method without refreshing the page."
+    },
+    {
+        "question": "Q32: How can a page be forced to load another page in JavaScript?",
+        "answer": "The following code has to be inserted to achieve the desired effect: <script language='JavaScript' type='text/javascript'> <!-- location. href='https://www.guru99.com/javascript-interview-questions-answers.html'; //--></script>"
+    },
+    {
+        "question": "Q33: What is the data type of variables in JavaScript?",
+        "answer": "All variables in JavaScript are object data types."
+    },
+    {
+        "question": "Q34: What is the difference between an alert box and a confirmation box?",
+        "answer": "An alert box displays only one button, which is the OK button. But a Confirmation box displays two buttons, namely OK and cancel."
+    },
+    {
+        "question": "Q35: What are escape characters?",
+        "answer": "Escape characters (Backslash) is used when working with special characters like single quotes, double quotes, apostrophes, and ampersands. Place backslash before the characters to make it display."
+    },
+    {
+        "question": "Q36: What are JavaScript Cookies?",
+        "answer": "Cookies are the small test files stored in a computer, and they get created when the user visits the websites to store information that they need. Examples could be User Name details and shopping cart information from previous visits."
+    },
+    {
+        "question": "Q37: What a pop()method in JavaScript is?",
+        "answer": "The pop() method is similar to the shift() method, but the difference is that the Shift method works at the array’s start. The pop() method takes the last element off of the given array and returns it. The array on which it is called is then altered."
+    },
+    {
+        "question": "Q38: Does JavaScript has concept level scope?",
+        "answer": "No. JavaScript does not have concept-level scope. The variable declared inside the function has scope inside the function."
+    },
+    {
+        "question": "Q39: What are the disadvantages of using innerHTML in JavaScript?",
+        "answer": "1 - Content is replaced everywhere. 2 - We cannot use it like “appending to innerHTML. 3 - Even if you use +=like “innerHTML = innerHTML + ‘html'” still the old content is replaced by html. 4 - It is much slower. 5 - The innerHTML does not provide validation."
+    },
+    {
+        "question": "Q40: What is break and continue statements?",
+        "answer": "Break statement exits from the current loop. Continue statement continues with next statement of the loop."
+    },
+    {
+        "question": "Q41: What are the two basic groups of data types in JavaScript?",
+        "answer": "Primitive and Reference types."
+    },
+    {
+        "question": "Q42: How can generic objects be created?",
+        "answer": "Generic objects can be created as: var I = new object();"
+    },
+    {
+        "question": "Q43: What is the use of a type of operator?",
+        "answer": "‘Typeof’ is an operator used to return a string description of the type of a variable."
+    },
+    {
+        "question": "Q44: Which keywords are used to handle exceptions?",
+        "answer": "Try… Catch—finally is used to handle exceptions in the JavaScript"
+    },
+    {
+        "question": "Q45: Which keyword is used to print the text on the screen?",
+        "answer": "Document. Write (“Welcome”) is used to print the text–Welcome on the screen."
+    },
+    {
+        "question": "Q46: What is the use of the blur function?",
+        "answer": "Blur function is used to remove the focus from the specified object."
+    },
+    {
+        "question": "Q47: How to find an operating system in the client machine using JavaScript?",
+        "answer": "The ‘Navigator. the app version is used to find the operating system’s name in the client machine."
+    },
+    {
+        "question": "Q48: What are the different types of errors in JavaScript?",
+        "answer": "There are three types of errors: 1 - Load time errors: Errors that come up when loading a web page. 2 - Runtime errors: Errors that come due to misuse of the command inside the HTML language. 3 - Logical Errors: These are the errors that occur due to the bad logic performed on a function with a different operation."
+    },
+    {
+        "question": "Q49: What is the use of the Push method in JavaScript?",
+        "answer": "The push method is used to add or append one or more elements to an Array end. Using this method, we can append multiple elements by passing multiple arguments."
+    },
+    {
+        "question": "Q50: What is the unshift method in JavaScript?",
+        "answer": "Unshift method is like the push method, which works at the beginning of the array. This method is used to prepend one or more elements to the beginning of the array."
+    },
+    {
+        "question": "Q51: What is the difference between JavaScript and Jscript?",
+        "answer": "Both are almost similar. Netscape develop JavaScript and Jscript was developed by Microsoft."
+    },
+    {
+        "question": "Q52: How are object properties assigned?",
+        "answer": "Properties are assigned to objects in the following way - obj.class = 12; or obj ['class'] = 12;"
+    },
+    {
+        "question": "Q53: What is the ‘Strict Mode in JavaScript, and how can it be enabled?",
+        "answer": "Strict mode can be enabled by adding the string literal “use strict” above the file. .Strict Mode adds certain compulsions to JavaScript. Under the strict Mode, JavaScript shows errors for a piece of code, which did not show an error before, but might be problematic and potentially unsafe. Strict Mode also solves some mistakes that hamper the JavaScript engines from working efficiently."
+    },
+    {
+        "question": "Q54: What is the way to get the status of a CheckBox?",
+        "answer": "The status can be acquired as follows: alert(document.getElementById('checkbox1').checked); "
+    },
+    {
+        "question": "Q55: How do you detect the operating system on a client machine?",
+        "answer": "The navigator.appVersion string can be used to detect the operating system on the client machine."
+    },
+    {
+        "question": "Q56: What is a window.onload and onDocumentReady?",
+        "answer": "The onload function is not run until all the information on the page is loaded. This leads to a substantial delay before any code is executed. onDocumentReady loads the code just after the DOM is loaded. This allows early manipulation of the code."
+    },
+    {
+        "question": "Q57: What is Closure in JavaScript?",
+        "answer": "A closure is the combination of a function and the lexical environment within which that function was declared."
+    },
+    {
+        "question": "Q58: How can a value be appended to an array?",
+        "answer": "A value can be appended to an array in the given manner – arr[arr.length] = value;"
+    },
+    {
+        "question": "Q59: What is for-in loop in Javascript?",
+        "answer": "The for-in loop is used to loop through the properties of an object. In each repetition, one property from the object is associated with the variable name. The loop is continued till all the properties of the object are depleted."
+    },
+    {
+        "question": "Q60: What are the important properties of an anonymous function in JavaScript?",
+        "answer": "A function that is declared without any named identifier is known as an anonymous function. In general, an anonymous function is inaccessible after its declaration."
+    },
+    {
+        "question": "Q61: What is the difference between .call() and .apply()?",
+        "answer": "The function .call() and .apply() are very similar in their usage except a little difference. .call() is used when the number of the function’s arguments are known to the programmer, as they have to be mentioned as arguments in the call statement. On the other hand, .apply() is used when the number is not known. The function .apply() expects the argument to be an array."
+    },
+    {
+        "question": "Q62: What is event bubbling?",
+        "answer": "JavaScript allows DOM elements to be nested inside each other. In such a case, if the handler of the child is clicked, the handler of the parent will also work as if it were clicked too."
+    },
+    {
+        "question": "Q63: Is JavaScript case sensitive? Give its example.",
+        "answer": "Yes, JavaScript is case-sensitive. For example, a function parseInt is not the same as the function Parseint."
+    },
+    {
+        "question": "Q64:  What boolean operators can be used in JavaScript?",
+        "answer": "The ‘And’ Operator &&, ‘Or’ Operator ||, and the ‘Not’ Operator ! can be used in JavaScript."
+    },
+    {
+        "question": "Q65: How can a particular frame be targeted, from a hyperlink, in JavaScript?",
+        "answer": "This can be done by including the name of the required frame in the hyperlink using the ‘target’ attribute: '<a target='newframe'></a>'"
+    },
+    {
+        "question": "Q66: What is the role of break and continue statements?",
+        "answer": "The break statement is used to come out of the current loop. In contrast, the continue statement continues the current loop with a new recurrence."
+    },
+    {
+        "question": "Q67: Write the point of difference between a web garden and a web farm?",
+        "answer": "Both web-garden and web-farm are web hosting systems. The only difference is that web-garden is a setup that includes many processors in a single server. At the same time,web-farm is a larger setup that uses more than one server."
+    },
+    {
+        "question": "Q68: How are object properties assigned?",
+        "answer": "Assigning properties to objects is done in the same way as a value is assigned to a variable. For example, a form object’s action value is assigned as ‘submit’ in the following manner – Document. form.action=”submit”;"
+    },
+    {
+        "question": "Q69: What is the method for reading and writing a file in JavaScript?",
+        "answer": "This can be done by Using JavaScript extensions (runs from JavaScript Editor), for example, for the opening of a file - fh = fopen(getScriptPath(), 0);"
+    },
+    {
+        "question": "Q70: How are DOM utilized in JavaScript?",
+        "answer": "DOM stands for Document Object Model and is responsible for how various objects in a document interact with each other. "
+    },
+    {
+        "question": "Q71: How are event handlers utilized in JavaScript?",
+        "answer": "Events are the actions that result from activities, such as clicking a link or filling a form by the user. An event handler is required to manage the proper execution of all these events. Event handlers are an extra attribute of the object. This attribute includes the event’s name and the action taken if the event takes place."
+    },
+    {
+        "question": "Q72: What is the role of deferred scripts in JavaScript?",
+        "answer": "The HTML code’s parsing during page loading is paused by default until the script has not stopped executing. If the server is slow or the script is particularly heavy, then the web page is delayed. While using Deferred, scripts delays execution of the script till the time the HTML parser is running. This reduces the loading time of web pages, and they get displayed faster."
+    },
+    {
+        "question": "Q73: What are the various functional components in JavaScript?",
+        "answer": "The different functional components in JavaScript are - First-class functions: Functions in JavaScript are utilized as first-class objects. This usually means that these functions can be passed as arguments to other functions, returned as values from other functions, assigned to variables, or can also be stored in data structures. 2 - Nested functions: The functions, which are defined inside other functions, are called Nested functions. They are called ‘every time the main function is invoked."
+    },
+    {
+        "question": "Q74: hOW about the errors shown in JavaScript?",
+        "answer": "JavaScript gives a message as if it encounters an error. The recognized errors are – Load-time errors - Runtime errors - Logic errors."
+    },
+    {
+        "question": "Q75: What are Screen objects?",
+        "answer": "Screen objects are used to read the information from the client’s screen. The properties of screen objects are: AvailHeight - AvailWidth - ColorDepth - Height - Width."
+    },
+    {
+        "question": "Q76: What is the unshift() method?",
+        "answer": "This method is functional at the starting of the array, unlike the push(). It adds the desired number of elements to the top of an array."
+    },
+    {
+        "question": "Q77: What is unescape() and escape() functions?",
+        "answer": "The escape () function is responsible for coding a string to transfer the information from one computer to the other across a network. For Example: <script> document.write(escape('Hello? How are you!')); </script>"
+    },
+    {
+        "question": "Q78: What are the decodeURI() and encodeURI()?",
+        "answer": "EncodeURl() is used to convert URL into their hex coding. And DecodeURI() is used to convert the encoded URL back to normal."
+    },
+    {
+        "question": "Q79: Why you should not use innerHTML in JavaScript?",
+        "answer": "innerHTML content is refreshed every time and thus is slower. There is no scope for validation in innerHTML. Therefore, it is easier to insert rogue code in the document and make the web page unstable."
+    },
+    {
+        "question": "Q80: Can you assign an anonymous function to a variable and pass it as an argument to another function?",
+        "answer": "Yes! An anonymous function can be assigned to a variable. It can also be passed as an argument to another function."
+    },
+    {
+        "question": "Q81: How are JavaScript and ECMA Script related?",
+        "answer": "ECMA Script is like rules and guidelines, while Javascript is a scripting language used for web development."
+    },
+    {
+        "question": "Q82: What is namespacing in JavaScript, and how is it used?",
+        "answer": "Namespacing is used for grouping the desired functions, variables, etc., under a unique name. It is a name that has been attached to the desired functions, objects, and properties. This improves modularity in the coding and enables code reuse."
+    },
+    {
+        "question": "Q83: How can JavaScript codes be hidden from old browsers that do not support JavaScript?",
+        "answer": "For hiding JavaScript codes from old browsers: add “<!–” without the quotes in the code just after the <script> tag. AND Add “//–>” without the quotes in the code just before the <script> tag."
+    },
+    {
+        "question": "Q84: What are the important JavaScript Array Method explain with example?",
+        "answer": "1 - length property. 2 - prototype property. 3 - reverse method. 4 - sort method. 5 - pop method. 6 - shift method. 7 - push method"
+    },
+    {
+        "question": "Q85: What is OOPS Concept in JavaScript?",
+        "answer": "Many times, variables or arrays are not sufficient to simulate real-life situations. JavaScript allows you to create objects that act like real-life objects. A student or a home can be an object that has many unique characteristics of its own. You can create properties and methods for your objects to make programming easier."
+    },
+    {
+        "question": "Q86: What is Loop Though the Properties of an Object?",
+        "answer": "The for/in a loop is usually used to loop through the properties of an object. You can give any name for the variable, but the object’s name should be the same as an already existing object you need to loop through."
+    },
+    {
+        "question": "Q87: What is JavaScript Unit Testing, and what are the challenges in JavaScript Unit Testing?",
+        "answer": "JavaScript Unit Testing is a testing method in which JavaScript tests code written for a web page or web application module. It is combined with HTML as an inline event handler and executed in the browser to test if all functionalities work fine. These unit tests are then organized in the test suite."
+    },
+    {
+        "question": "Q88: What are some important JavaScript Unit Testing Frameworks?",
+        "answer": "Unit.js - QUnit - Jasmine - Karma - Mocha - Jest - AVA"
+    },
+    {
+        "question": "Q89: What is QuickSort Algorithm in JavaScript? ",
+        "answer": "Quick Sort algorithm follows Divide and Conquer approach."
+    },
+    {
+        "question": "Q90: What is DOM in JavaScript?",
+        "answer": "JavaScript can access all the elements in a web page using the Document Object Model (DOM). The web browser creates a DOM of the webpage when the page is loaded."
+    },
+    {
+        "question": "Q91: How to use DOM and Events?",
+        "answer": "sing DOM, JavaScript can perform multiple tasks. It can create new elements and attributes, change the existing elements and attributes and even remove existing elements and attributes. JavaScript can also react to existing events and create new events in the page."
+    },
+    {
+        "question": "Q92: What is External JavaScript?",
+        "answer": "eXTERNAL JavaScript is code save in a new file with the extension .js. Then, add a line of code in all your web pages to point to your .js file like this: <script type='text/javascript'  src='/currentdetails.js'>"
+    },
+    {
+        "question": "Q93: What are Cookies in JavaScript?",
+        "answer": "A cookie is a piece of data stored on your computer to be accessed by your browser. You also might have enjoyed the benefits of cookies knowingly or unknowingly. Have you ever saved your Facebook password so that you do not have to type it every time you try to login? If yes, then you are using cookies. Cookies are saved as key/value pairs. Ex: document.cookie = 'cookiename = cookievalue'"
+    },
+    {
+        "question": "What is the difference between and HTMLCollection and a nodeList?",
+        "answer": "A NodeList and an HTMLcollection is very much the same thing. An HTMLCollection is a collection of document elements. A NodeList is a collection of document nodes (element nodes, attribute nodes, and text nodes)."
+    },
+    {
+        "question": "What is a Web Worker?",
+        "answer": "A web worker is a JavaScript that runs in the background, independently of other scripts, without affecting the performance of the page. You can continue to do whatever you want: clicking, selecting things, etc., while the web worker runs in the background."
+    },
+    {
+        "question": "What is the JavaScript Fetch API?",
+        "answer": "The Fetch API interface allows web browser to make HTTP requests to web servers."
+    },
+    {
+        "question": "What is AJAX?",
+        "answer": "AJAX stands for Asynchronous JavaScript And XML. AJAX is not a programming language. AJAX just uses a combination of:  1 - A browser built-in XMLHttpRequest object (to request data from a web server). 2 - JavaScript and HTML DOM (to display or use the data)."
+    },
+    {
+        "question": "What is JSON?",
+        "answer": "JSON stands for JavaScript Object Notation. JSON is a text format for storing and transporting data. JSON is language independent."
+    },
+    {
+        "question": "JavaScript Graphics.",
+        "answer": "JavaScript libraries to use for both Artificial Intelligence graphs and other charts: Plotly.js - Chart.js - Google Chart."
+    }
+]

@@ -1,0 +1,182 @@
+[
+    {
+        "question": "What is a JavaScript function?",
+        "answer": "A JavaScript function is a block of code designed to perform a particular task. A JavaScript function is a block of code, that can be executed when 'called' for."
+    },
+    {
+        "question": "Using window.alert()",
+        "answer": "You can skip the window keyword. In JavaScript, the window object is the global scope object, that means that variables, properties, and methods by default belong to the window object. This also means that specifying the window keyword is optional."
+    },
+    {
+        "question": "JavaScript Print",
+        "answer": "JavaScript does not have any print object or print methods. You cannot access output devices from JavaScript. The only exception is that you can call the window.print() method in the browser to print the content of the current window."
+    },
+    {
+        "question": "JavaScript Keywords",
+        "answer": "JavaScript statements often start with a keyword to identify the JavaScript action to be performed. JavaScript keywords are reserved words. Reserved words cannot be used as names for variables."
+    },
+    {
+        "question": "JavaScript Values",
+        "answer": "The JavaScript syntax defines two types of values: 1 - Fixed values. 2 - Variable values. Fixed values are called Literals. Variable values are called Variables."
+    },
+    {
+        "question": "JavaScript Identifiers / Names",
+        "answer": "Identifiers are JavaScript names. Numbers are not allowed as the first character in names. Hyphens are not allowed in JavaScript. They are reserved for subtractions."
+    },
+    {
+        "question": "What are Variables?",
+        "answer": "Variables are containers for storing data (storing data values)."
+    },
+    {
+        "question": "When to Use JavaScript const?",
+        "answer": "If you want a general rule: always declare variables with const. If you think the value of the variable can change, use let."
+    },
+    {
+        "question": "Value = undefined",
+        "answer": "In computer programs, variables are often declared without a value. The value can be something that has to be calculated, or something that will be provided later, like user input."
+    },
+    {
+        "question": "JavaScript Let",
+        "answer": "The let keyword was introduced in ES6 (2015). Variables defined with let cannot be Redeclared. Variables defined with let must be Declared before use. Variables defined with let have Block Scope."
+    },
+    {
+        "question": "JavaScript Const",
+        "answer": "JavaScript const variables must be assigned a value when they are declared. The const keyword was introduced in ES6 (2015). Variables defined with const cannot be Redeclared. Variables defined with const cannot be Reassigned. Variables defined with const have Block Scope."
+    },
+    {
+        "question": "When to use JavaScript const?",
+        "answer": "As a general rule, always declare a variable with const unless you know that the value will change."
+    },
+    {
+        "question": "Use const when you declare:",
+        "answer": "1 - A new Array. 2 - A new Object. 3 - A new Function. 4 - A new RegExp."
+    },
+    {
+        "question": "Constant Objects and Arrays",
+        "answer": "The keyword const is a little misleading. It does not define a constant value. It defines a constant reference to a value."
+    },
+    {
+        "question": "JavaScript Arrays",
+        "answer": "JavaScript arrays are written with square brackets. Array items are separated by commas."
+    },
+    {
+        "question": "JavaScript Objects",
+        "answer": "JavaScript objects are written with curly braces {}. Object properties are written as name:value pairs, separated by commas."
+    },
+    {
+        "question": "JavaScript Function",
+        "answer": "Function parameters are listed inside the parentheses () in the function definition. Function arguments are the values received by the function when it is invoked. Inside the function, the arguments (the parameters) behave as local variables."
+    },
+    {
+        "question": "Functions Used as Variable Values",
+        "answer": "Functions can be used the same way as you use variables, in all types of formulas, assignments, and calculations."
+    },
+    {
+        "question": "JavaScript Objects",
+        "answer": "Objects are variables too. But objects can contain many values. The values are written as name:value pairs (name and value separated by a colon)."
+    },
+    {
+        "question": "Object Methods",
+        "answer": "Objects can also have methods. Methods are actions that can be performed on objects. Methods are stored in properties as function definitions."
+    },
+    {
+        "question": "What is this?",
+        "answer": "In JavaScript, the this keyword refers to an object. Which object depends on how this is being invoked (used or called). The this keyword refers to different objects depending on how it is used."
+    },
+    {
+        "question": "What is this? Part 2.",
+        "answer": "In an object method, this refers to the object. Alone, this refers to the global object. In a function definition, this refers to the 'owner' of the function."
+    },
+    {
+        "question": "What is this? Part 3.",
+        "answer": "In an event, this refers to the element that received the event. Methods like call(), apply(), and bind() can refer this to any object."
+    },
+    {
+        "question": "JavaScript Events",
+        "answer": "HTML events are 'things' that happen to HTML elements. When JavaScript is used in HTML pages, JavaScript can \"react\" on these events."
+    },
+    {
+        "question": "String Methods and Properties",
+        "answer": "The length property returns the length of a string:\n let txt = \"ABCDEFGHIJKLMNOPQRSTUVWXYZ\"; let length = txt.length;"
+    },
+    {
+        "question": "Extracting String Parts",
+        "answer": "There are 3 methods for extracting a part of a string: \n slice(start, end) \n substring(start, end) \n substr(start, length)"
+    },
+    {
+        "question": "JavaScript String slice()",
+        "answer": "slice() extracts a part of a string and returns the extracted part in a new string. If a parameter is negative, the position is counted from the end of the string. If you omit the second parameter, the method will slice out the rest of the string:"
+    },
+    {
+        "question": "JavaScript String substring()",
+        "answer": "substring() is similar to slice(). The difference is that start and end values less than 0 are treated as 0 in substring(). If you omit the second parameter, substring() will slice out the rest of the string."
+    },
+    {
+        "question": "Replacing String Content",
+        "answer": "The replace() method replaces a specified value with another value in a string:"
+    },
+    {
+        "question": "JavaScript String Padding",
+        "answer": "ECMAScript 2017 added two String methods: padStart() and padEnd() to support padding at the beginning and at the end of a string."
+    },
+    {
+        "question": "JavaScript String padStart()",
+        "answer": "The padStart() method pads a string with another string: The padStart() method is a string method. To pad a number, convert the number to a string first."
+    },
+    {
+        "question": "JavaScript String padEnd()",
+        "answer": "The padEnd() method pads a string with another string: The padEnd() method is a string method. To pad a number, convert the number to a string first."
+    },
+    {
+        "question": "Extracting String Characters",
+        "answer": "There are 3 methods for extracting string characters: charAt(position) - charCodeAt(position) ...."
+    },
+    {
+        "question": "JavaScript String split()",
+        "answer": "A string can be converted to an array with the split() method: If the separator is omitted, the returned array will contain the whole string in index [0]. If the separator is \"\", the returned array will be an array of single characters:"
+    },
+    {
+        "question": "JavaScript String Search",
+        "answer": "JavaScript Search Methods: String indexOf() - String lastIndexOf() - String startsWith() - String endsWith()"
+    },
+    {
+        "question": "JavaScript String search()",
+        "answer": "The search() method searches a string for a specified value and returns the position of the match:"
+    },
+    {
+        "question": "JavaScript String match()",
+        "answer": "The match() method searches a string for a match against a regular expression, and returns the matches, as an Array object. Syntax: string.match(regexp);"
+    },
+    {
+        "question": "Search a string for \"ain\":",
+        "answer": "let text = \"The rain in SPAIN stays mainly in the plain\"; \n text.match(/ain/g);"
+    },
+    {
+        "question": "The Difference Between Arrays and Objects",
+        "answer": "n JavaScript, arrays use numbered indexes. In JavaScript, objects use named indexes."
+    },
+    {
+        "question": "JavaScript Hoisting",
+        "answer": "Hoisting is JavaScript's default behavior of moving all declarations to the top of the current scope (to the top of the current script or the current function)."
+    },
+    {
+        "question": "JavaScript Iterables",
+        "answer": "Arrays - Sets, Strings, Maps, Generators"
+    },
+    {
+        "question": "Iterable",
+        "answer": "A data structure that provides ann interface for iteration. it uses the Iterable Protocol. Special key: Symbol.iterator"
+    },
+    {
+        "question": "",
+        "answer": ""
+    },
+    {
+        "question": "",
+        "answer": ""
+    },
+    {
+        "question": "",
+        "answer": ""
+    }
+]

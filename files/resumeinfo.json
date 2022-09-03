@@ -1,0 +1,71 @@
+{
+    "info": [
+        {
+            "firstname": "Daphner",
+            "lastname": "Aulibrice",
+            "title": "Software Developer",
+            "email": "aulibriced@gmail.com",
+            "summary": "Decorated and highly energetic leader with 11+ years of work experience and proven knowledge of application development and web design. Strong skills in project planning, complex problem-solving, and detailed analysis related to organizational policy and process improvement. TS Security Clearance."
+        }
+    ],
+    "experience": [
+        {
+            "company": "FiconXD.com",
+            "location": "West Palm Beach, FL",
+            "jobtitle": "Software Developer",
+            "year": "Jan 2019 - Current",
+            "description": [
+                "Developed robust, reusable, and reliable components to enhance the company platforms, frameworks, and services.",
+                "Performed cross-browser testing and remediation for 100 percent of front-end web applications to ensure performance and superior visual quality.",
+                "Analyzed user needs and software requirements to determine the feasibility of design within the allocated time and cost constraints.",
+                "Obtained critical information on project limitations, capabilities, and performance requirements."
+            ]
+        },
+        {
+            "company": "Florida International University",
+            "location": "Miami, FL",
+            "jobtitle": "Programming Learning Assistant",
+            "year": "Aug 2018 - Dec 2020",
+            "description": [
+                "Improved students' average test scores by 15 percent within the first few weeks of small group tutoring sessions to reinforce key programming concepts.",
+                "Increased the retention rate of key programming concepts by 20 percent by leading small class presentations using lectures and class discussions.",
+                "Provided valuable feedback and graded 60 to 70 exams each week with 100 percent accuracy."
+            ]
+        },
+        {
+            "company": "Department of State",
+            "location": "Quantico, VA",
+            "jobtitle": "Marine Safety Officer",
+            "year": "Mar 2015 - Aug 2018",
+            "description": [
+                "Managed and operated internal security systems to designated U.S. diplomatic and consular facilities to prevent the compromise of classified information and equipment vital to the national security of the United States.",
+                "Provided protection for U.S. citizens and U.S. government property located within designated U.S. diplomatic and consular premises during exigent circumstances.",
+                "Directly managed security infrastructure and daily operations of security systems."
+            ]
+        },
+        {
+            "company": "U.S. Marine Corps",
+            "location": "Washington, DC",
+            "jobtitle": "Flight Equipment Technician",
+            "year": "Jul 2011 - Mar 2015",
+            "description": [
+                "Maintained 100 percent mission readiness by testing, calibrating, and performing weekly operational checks on all mission-critical aircraft systems and computer systems.",
+                "Increased all benchmark and performance parameters by 30 percent on all mission-critical components.",
+                "Awarded the Navy and Marine Corps Achievement Medal for exceptional and superior professional performance and achievements."
+            ]
+        }
+    ],
+    "education": [
+        {
+            "school": "FLORIDA INTERNATIONAL UNIVERSITY",
+            "location": "Miami, FL",
+            "major": "B.S. Information Technology",
+            "year": "Aug 2018 - Dec 2020"
+        }
+    ],
+    "skills": [
+        {
+            "languages": "HTML | CSS | JavaScript | ReactJS | NodeJS | Git | JQuery | Java | Python | Flask | MongoDB"
+        }
+    ]
+}

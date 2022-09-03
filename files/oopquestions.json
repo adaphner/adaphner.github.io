@@ -1,0 +1,178 @@
+[
+    {
+        "question": "Q1: What is Object Oriented Programming?",
+        "answer": "Object-Oriented Programming(OOPs) is a type of programming that is based on objects rather than just functions and procedures. Individual objects are grouped into classes. OOPs implements real-world entities like inheritance, polymorphism, hiding, etc..."
+    },
+    {
+        "question": "Q2: Why use OOPs?",
+        "answer": "1 - OOPs allows clarity in programming thereby allowing simplicity in solving complex problems.\n 2 - Code can be reused through inheritance thereby reducing redundancy.\n 3 - Data and code are bound together by encapsulation.\n 4 - OOPs allows data hiding, therefore, private data is kept confidential."
+    },
+    {
+        "question": "Q3: What are the four pillars or basic principles of Object Oriented Programming?",
+        "answer": "The four pillars or basic principles of OOP are Encapsulation, Data Abstraction, Inheritance and Polymorphism."
+    },
+    {
+        "question": "Q4: What is data Encapsulation?",
+        "answer": "Encapsulation is the mechanism of hiding of data implementation by restricting access to public methods. Instance variables are kept private and accessor methods are made public to achieve this."
+    },
+    {
+        "question": "Q5: What is data Abstraction?",
+        "answer": "An abstract class is a class that consists of abstract methods. These methods are basically declared but not defined. If these methods are to be used in some subclass, they need to be exclusively defined in the subclass."
+    },
+    {
+        "question": "Q6: Can you create an instance of an abstract class?",
+        "answer": "No. Instances of an abstract class cannot be created because it does not have a complete implementation. However, instances of subclass inheriting the abstract class can be created."
+    },
+    {
+        "question": "Q7: What is Inheriatance?",
+        "answer": "Inheritances expresses “is-a” and/or “has-a” relationship between two objects. Using Inheritance, In derived classes we can reuse the code of existing super classes. In Java, concept of “is-a” is based on class inheritance (using extends) or interface implementation (using implements)."
+    },
+    {
+        "question": "Q8: What is Polymorphism?",
+        "answer": "Polymorphism means one name many forms. It is further of two types — static and dynamic. Static polymorphism is achieved using method overloading and dynamic polymorphism using method overriding. It is closely related to inheritance. We can write a code that works on the superclass, and it will work with any subclass type as well."
+    },
+    {
+        "question": "Q9: What is an interface?",
+        "answer": "An interface is a concept of OOPs that allows you to declare methods without defining them. Interfaces, unlike classes, are not blueprints because they do not contain detailed instructions or actions to be performed. Any class that implements an interface defines the methods of the interface."
+    },
+    {
+        "question": "Q10: What are access modifiers?",
+        "answer": "Access modifiers (or access specifiers) are keywords in object-oriented languages that set the accessibility of classes, methods, and other members. Access modifiers are a specific part of programming language syntax used to facilitate the encapsulation of components."
+    },
+    {
+        "question": "Q11: What is an object?",
+        "answer": "An object is a real-world entity which is the basic unit of OOPs for example chair, cat, dog, etc. Different objects have different states or attributes, and behaviors."
+    },
+    {
+        "question": "Q12: What is a class?",
+        "answer": "A class is a prototype that consists of objects in different states and with different behaviors. It has a number of methods that are common the objects present within that class."
+    },
+    {
+        "question": "Q13: What is the difference between a class and a structure?",
+        "answer": "1 - Class: User-defined blueprint from which objects are created. It consists of methods or set of instructions that are to be performed on the objects. 2 - Structure: A structure is basically a user-defined collection of variables which are of different data types."
+    },
+    {
+        "question": "Q14: Can you call the base class method without creating an instance?",
+        "answer": "Yes, you can call the base class without instantiating it if: It is a static method or The base class is inherited by some other subclass"
+    },
+    {
+        "question": "Q15: What is the difference between multiple and multilevel inheritance?",
+        "answer": "Multiple inheritance comes into picture when a class inherits more than one base class and Multilevel inheritance means a class inherits from another class which itself is a subclass of some other base class."
+    },
+    {
+        "question": "Q16: What is hybrid inheritance?",
+        "answer": "Hybrid inheritance is a combination of multiple and multi-level inheritance."
+    },
+    {
+        "question": "Q17: What is a subclass?",
+        "answer": "A class that inherits from another class is called the subclass."
+    },
+    {
+        "question": "Q18: What is method overloading?",
+        "answer": "Method overloading is a feature of OOPs which makes it possible to give the same name to more than one methods within a class if the arguments passed differ."
+    },
+    {
+        "question": "Q19: What is method overriding?",
+        "answer": "Method overriding is a feature of OOPs by which the child class or the subclass can redefine methods present in the base class or parent class. Here, the method that is overridden has the same name as well as the signature meaning the arguments passed and the return type."
+    },
+    {
+        "question": "Q20: What is operator overloading?",
+        "answer": "Operator overloading refers to implementing operators using user-defined types based on the arguments passed along with it."
+    },
+    {
+        "question": "Q21: Differentiate between overloading and overriding.",
+        "answer": "Overloading is Two or more methods having the same name but different parameters or signature. Overiding is Child class redefining methods present in the base class with the same parameters or signature."
+    },
+    {
+        "question": "Q22: What is a constructor?",
+        "answer": "A constructor is a special type of method that has the same name as the class and is used to initialize objects of that class."
+    },
+    {
+        "question": "Q23: What is a destructor?",
+        "answer": "A destructor is a method that is automatically invoked when an object is destroyed. The destructor also recovers the heap space that was allocated to the destroyed object, closes the files and database connections of the object, etc."
+    },
+    {
+        "question": "Q24: What is the use of ‘finalize’?",
+        "answer": "Finalize as an object method used to free up unmanaged resources and cleanup before Garbage Collection(GC). It performs memory management tasks."
+    },
+    {
+        "question": "Q25: What is Garbage Collection(GC)?",
+        "answer": "GC is an implementation of automatic memory management. The Garbage collector frees up space occupied by objects that are no longer in existence."
+    },
+    {
+        "question": "Q26: Differentiate between a class and a method.",
+        "answer": "A class is basically a template that binds the code and data together into a single unit. Classes consist of methods, variables, etc... Methods are callable set of instructions also called a procedure or function that are to be performed on the given data"
+    },
+    {
+        "question": "Q27: What is a final variable?",
+        "answer": "A variable whose value does not change. It always refers to the same object by the property of non-transversity."
+    },
+    {
+        "question": "Q28: What is an exception?",
+        "answer": "An exception is a kind of notification that interrupts the normal execution of a program. Exceptions provide a pattern to the error and transfer the error to the exception handler to resolve it. The state of the program is saved as soon as an exception is raised."
+    },
+    {
+        "question": "Q29: What is exception handling?",
+        "answer": "Exception handling in Object-Oriented Programming is a very important concept that is used to manage errors. An exception handler allows errors to be thrown and caught and implements a centralized mechanism to resolve them."
+    },
+    {
+        "question": "Q30: What is the difference between an error and an exception?",
+        "answer": "Errors are problems that should not be encountered by applications. Conditions that an application might try to catch."
+    },
+    {
+        "question": "Q31: What is a try/ catch block?",
+        "answer": "A try/ catch block is used to handle exceptions. The try block defines a set of statements that may lead to an error. The catch block basically catches the exception."
+    },
+    {
+        "question": "Q32: What is a finally block?",
+        "answer": "A finally block consists of code that is used to execute important code such as closing a connection, etc. This block executes when the try block exits. It also makes sure that finally block executes even in case some unexpected exception is encountered."
+    },
+    {
+        "question": "Q33: What are the limitations of OOPs?",
+        "answer": "Usually not suitable for small problems - Requires intensive testing - Takes more time to solve the problem - Requires proper planning - The programmer should think of solving a problem in terms of objects."
+    },
+    {
+        "question": "Q34: What does UML stands for?",
+        "answer": "UML stands for Unified Modeling Language."
+    },
+    {
+        "question": "Q35: What is a Design Pattern?",
+        "answer": "Design patterns are design level solutions for recurring problems that we software engineers come across often. It is like a description on how to tackle these problems and design a solution."
+    },
+    {
+        "question": "Q36: What are the three types of design patterns?",
+        "answer": "1. Creational: These patterns are designed for class instantiation. They can be either class-creation patterns or object-creational patterns. 2. Structural: These patterns are designed with regard to a class's structure and composition. The main goal of most of these patterns is to increase the functionality of the class(es) involved, without changing much of its composition. 3. Behavioral: These patterns are designed depending on how one class communicates with others."
+    },
+    {
+        "question": "Q37: ",
+        "answer": ""
+    },
+    {
+        "question": "Q38: ",
+        "answer": ""
+    },
+    {
+        "question": "Q39: ",
+        "answer": ""
+    },
+    {
+        "question": "Q40: ",
+        "answer": ""
+    },
+    {
+        "question": "Q41: ",
+        "answer": ""
+    },
+    {
+        "question": "Q42: ",
+        "answer": ""
+    },
+    {
+        "question": "Q43: ",
+        "answer": ""
+    },
+    {
+        "question": "Q44: ",
+        "answer": ""
+    }
+]

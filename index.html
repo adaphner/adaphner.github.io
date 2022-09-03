@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Webdevio.com | Web Development | Web Design">
+    <meta property="og:image" content="---logo.png">
+    <meta property="og:description" content="">
+    <meta name="author" content="Daphner Aulibrice">
+    <title>Webdevio.com | Home | Website Development | Web Design</title>
+    <meta name="description" content="">
+    <link rel="icon" href="/images/da-favicon.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/projects.css">
+    <link rel="stylesheet" type="text/css" href="css/resume.css">
+    <script src="js/index.js" defer></script>
+    <script src="js/projects.js" defer></script>
+    <script src="js/resume.js" defer></script>
+</head>
+<body>
+    <!-- <div class="header-quote">
+        <p>"We are what we repeatedly do. Excellence, then, is not an act, but a habit."</p>
+        <p>Will Durant</p>
+    </div> -->
+    <!-- Navigation -->
+    
+    <nav id="navigation">
+        <div id="nav-div">
+            <button type="button" id="default" class="nav-tab">Portfolio</button>
+            <button type="button" class="nav-tab">Projects</button>
+            <button type="button" class="nav-tab">Resume</button>
+            <!-- <button type="button" class="nav-tab">Contact</button> -->
+            <!-- <button type="button" class="nav-tab">Resources</button> -->
+        </div>
+    </nav>
+
+    <!-- Home Page Tab -->
+    <div id="Portfolio" class="page-content">
+
+        <div class="spaces"></div>  
+
+        <!-- <div class="spaces"></div> -->
+        
+        <div id="bio-wrapper">
+            <!-- <div id="bio-left-div">
+                <a href="#"><img src="/images/blogpic.png" alt="Programing Languages"></a>
+            </div> -->
+            <div class="short-bio">
+                <h2>Hi, my name is Daphner.</h2>
+                <p>Software Engineer | Entrepreneur | USMC Veteran.</p>
+            </div>
+
+            <div class="short-bio">
+                <p>Specialised in frontend and backend development of complex and scalable software applications.</p>
+            </div>
+
+            <div class="portfolio-btn">
+                <a href="mailto:aulibriced@gmail.com">
+                    <button type="button">SEND ME AN EMAIL</button>
+                </a>
+                <a href="/files/A-Daphner-Resume.pdf" download="Daphner-Aulibrice-Resume">
+                    <button type="button">DOWNLOAD MY RESUME - PDF</button>
+                </a>
+            </div> 
+            <!-- <div class="portfolio-btn">
+                <a href="/files/A-Daphner-Resume.pdf" download="Daphner-Aulibrice-Resume">
+                    <button type="button">Download Resume - pdf</button>
+                </a>
+            </div>  -->
+        </div>
+        
+        <div class="spaces"></div>
+    </div>
+    <div id="Projects" class="page-content">
+        <div id="projects-sub-nav">
+            <div id="projects-sub-div">
+                <button type="button" id="default-projects" class="projects-tab">Basic</button>
+                <!-- <button type="button" class="projects-tab">Intermidate</button> -->
+                <button type="button" class="projects-tab">Advance</button>
+            </div>
+        </div>
+        <div id="Basic" class="projects-content">
+
+        <div class="spaces"></div>
+
+        <div class="project-wrapper">
+                <div class="description">
+                    <h2>Calculator</h2>
+                    <p>This calculator has a responsive and beautifully designed user interface.
+                        <br> It perform basic calculations such as addition, subtraction, division, multiplication, and modulus operations. <br>
+                        <br> Tech Stack : HTML | CSS | JavaScript
+                    </p>
+                </div>
+                <div class="project">
+                    <div id="summary-total-div">  
+                        <div id="calculator-total">0</div>
+                    </div>
+                    <div id="calculator-buttons-div">    
+                        <div id="clear-btn">AC</div>
+                        <div id="delete-btn">DEL</div>
+                        <div class="btn-operation">%</div>
+                        <div class="btn-operation">÷</div>
+    
+                        <div class="buttons">7</div>
+                        <div class="buttons">8</div>
+                        <div class="buttons">9</div>
+                        <div class="btn-operation">×</div>
+    
+                        <div class="buttons">4</div>
+                        <div class="buttons">5</div>
+                        <div class="buttons">6</div>
+                        <div class="btn-operation">-</div>
+    
+                        <div class="buttons">1</div>
+                        <div class="buttons">2</div>
+                        <div class="buttons">3</div>
+                        <div class="btn-operation">+</div>
+    
+                        <div class="buttons">±</div>
+                        <div class="buttons">0</div>
+                        <div class="buttons">.</div>
+                        <div id="equal-btn">=</div>
+                    </div>
+                </div>
+        </div>
+        <div class="spaces"></div>
+
+            <div class="project-wrapper">
+                <div class="description">
+                    <h2>Color Palette Generator</h2>
+                    <p>This color palette generator generates a new set of random colors along with their corresponding hex values.
+                        <br>This app is perfect for designing and experimenting with different color schemes. <br>
+                        <br>Tech Stack : HTML | CSS | JavaScript
+                    </p>
+                    <div id="color-flipper">
+                        <button id="bg-color-button" type="button">Generate Random Colors</button>
+                    </div>
+                </div>
+                <div class="project">
+                    <div id="hex-generator-div">
+                        <div id="hex-one"><p class="hex-number" id="hex-one-text">#35788C</p></div>
+                        <div id="hex-two"><p class="hex-number" id="hex-two-text">#6398AA</p></div>
+                        <div id="hex-three"><p class="hex-number" id="hex-three-text">#5E8379</p></div>
+                        <div id="hex-four"><p class="hex-number" id="hex-four-text">#79A1C7</p></div>
+                        <div id="hex-five"><p class="hex-number" id="hex-five-text">#204666</p></div>
+                        <div id="hex-six"><p class="hex-number" id="hex-six-text">#3F6B9B</p></div>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="spaces"></div>
+        
+            <div id="timer-main-container">
+                <div id="timer-wrapper">
+                    <div>
+                        <h2>Counter App</h2>
+                        <p id="timer">0</p>
+                        <h3 id="count">0</h3> 
+                    </div>
+                    <div id="btn-increment">
+                        <button type="button">+ INCREMENT</button>
+                    </div>
+                    <div id="btn-reset">
+                        <button type="button">RESET</button>
+                    </div>    
+                </div> 
+            </div>
+        
+            <div class="spaces"></div>
+        
+            <!-- Fun Facts Section -->
+            <div id="fun-facts-div" class="divs">
+                <div id="dyk-div"> 
+                    <img id="dyk-lb" src="/images/lbg.png" alt="Light Bulb">
+                    <h3>Fun Facts ✔</h3>
+                </div>
+                <div id="fun-facts">
+                    <p id="fun-fact">[ Fun Facts ]</p>
+                </div>
+            </div>
+
+            <div class="spaces"></div>
+                <!-- End of Section -->
+        </div>
+
+        <!-- <div id="Intermidate" class="projects-content">  
+        </div> -->
+
+        <div id="Advance" class="projects-content">
+            <!--Graphic Section JS Questions-->
+            <div class="graphic-divs">
+                <img src="/images/jsgraphic.png" alt="JavaScript 3D Graphic.">
+                <h4>JavaScript Interview Questions</h4>
+                <img src="/images/jsstudy.png" alt="JavaScript Study Graphic.">
+            </div>
+            <!--End of Section-->
+            <!--Interview Questions and Answers-->
+            <div class="qna-div" >
+                <p id="question">Questions</p>
+                <p id="answer">Answers</p>
+                <div class="question-btn-div">
+                    <button id="prev-question-btn" type="button">Previous Question</button>
+                    <button id="question-btn" type="button">Next Question</button>  
+                </div>
+            </div>
+
+            <div class="spaces"></div>
+
+            
+
+            <div class="spaces"></div>
+
+            <div id="quotes-div">
+                <img src="/images/webdeviologo.png" alt="WebDevIO Logo">
+                <p id="p-quote">Beast Mode</p>
+                <p id="p-author">Beast</p>
+                <button id="quote-btn" type="button">Next Quote</button>
+            </div>
+
+        </div>
+    </div>
+    <div id="Resume" class="page-content">
+        <div id="resume-wrapper">
+            <div class="spaces"></div>
+            <!-- <div id="bio-left-div">
+                <a href="#"><img src="/images/blogpic.png" alt="Programing Languages"></a>
+            </div> -->
+
+            <div id="profile-container">
+                <div id="left-profile">
+                        <div class="name-and-title">
+                            <h1>Daphner Aulibrice</h1>
+                            <h3>Software Engineer</h3>
+                        </div>
+                        <div class="summary">
+                            <p>Experienced Software Engineer adept in bringing forth expertise in design, installation, testing and maintenance of software systems.
+                                Proficient in various platforms, languages, and embedded systems. Able to effectively collaborate as part of a productive team, as well as self-manage during independent projects.
+                            </p>
+                        </div>
+                        
+                        <div class="experience-title">  
+                            <h3>WORK EXPERIENCE</h3>
+                        </div>
+                        <div class="experience-div">
+                            <div class="experience">
+                                <div class="year-div">
+                                    <p class="exp-year">2019 - Current</p>
+                                </div>
+                                <div class="company">
+                                    <p>Software Engineer</p>
+                                    <p>FiconXD.com</p>
+                                </div>
+                            </div>
+                            <div class="experience">
+                                <div class="year-div">
+                                    <p class="exp-year">2018 - 2020</p>
+                                </div>
+                                <div class="company">
+                                    <p>Learning Assistant</p>
+                                    <p>Florida Int University</p>
+                                </div>
+                            </div>
+                            <div class="experience">
+                                <div class="year-div">
+                                    <p class="exp-year">2015 - 2018</p>
+                                </div>
+                                <div class="company">
+                                    <p>Marine Safety Officer</p>
+                                    <p>Department of State</p>
+                                </div>
+                            </div>
+                            <div class="experience">
+                                <div class="year-div">
+                                    <p class="exp-year">2011 - 2015</p>
+                                </div>
+                                <div class="company">
+                                    <p>Flight Technician</p>
+                                    <p>Marine Corps</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="experience-title">
+                            <h3>SKILLS</h3>
+                        </div>
+                        <div class="exp-info">
+                            <p>HTML | CSS | JavaScript | ReactJS | Express | NodeJS | Git | JQuery | Java | Python | Flask | SQL | MongoDB</p>
+                        </div>
+                </div>
+    
+    
+                <div id="right-profile">
+                    <div class="experience-title">
+                        <h3>EDUCATION</h3>
+                    </div>
+                    <div class="exp-info">
+                        <p>B.S. Information Technology</p>
+                        <p>Magna Cum Laude</p>
+                        <p class="exp-year">2018 - 2020</p>
+                    </div>
+                    <div class="exp-info">
+                        <p>A.A. General Studies</p>
+                        <p class="exp-year">2016 - 2018</p>
+                    </div>
+                    
+                    <div class="experience-title">
+                        <h3>MILITARY AWARDS</h3>
+                    </div>
+                    <div class="exp-info">
+                        <p>Navy and Marine Corps Achievement Medal</p>
+                    </div>
+
+                    <div class="experience-title">
+                        <h3>CONTACT</h3>
+                    </div>
+                    <div class="exp-info">
+                        Email: <a href="mailto:aulibriced@gmail.com">aulibriced@gmail.com</a>
+                    </div>
+                    <div class="experience-title">
+                        <h3>PROFILE</h3>
+                    </div>
+                    <div class="profile">
+                        <a href="https://www.linkedin.com/in/daphner-aulibrice" target="_blank">
+                            LinkedIn
+                        </a>
+                        <a href="https://github.com/dauli003" target="_blank">
+                            GitHub
+                        </a>
+                    </div>
+                    <div class="download">
+                        <a href="/files/A-Daphner-Resume.pdf" download="Daphner-Aulibrice-Resume">
+                            <button type="button">DOWNLOAD MY RESUME - PDF</button>
+                        </a>
+                    </div>     
+                </div>
+            </div>
+
+        </div>
+        <div class="spaces"></div>
+    </div>
+    <footer>
+        <div class="da-logo">
+            <img src="/images/da-logo-white.svg" alt="Daphner Aulibrice logo">
+        </div>
+        <div class="footer-container">
+            <!-- <div class="da-logo">
+                <img src="/images/da-logo-white.svg" alt="Daphner Aulibrice logo">
+            </div> -->
+            <div class="footer-box">
+                <h2>Daphner Aulibrice</h2>
+            </div>
+            <div class="footer-box">
+                <h3>Software Engineer</h3>
+            </div>
+            <div class="footer-social">
+                <a href="https://www.linkedin.com/in/daphner-aulibrice/" target="_blank" rel="noopener noreferrer">
+                    <img id="linkedin-icon" class="ft-social-icons" src="/images/linked-in-white.svg" alt="LinkedIn">
+                </a>
+                <a href="https://github.com/adaphner" target="_blank" rel="noopener noreferrer">
+                    <img id="github-icon" class="ft-social-icons" src="/images/git-hub-white.svg" alt="GitHub">
+                </a>
+                <a href="mailto:aulibriced@gmail.com">
+                    <img id="email-icon" class="ft-social-icons" src="/images/email-white.svg" alt="GitHub">
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <div class="spaces"></div>  
+    <!-- <div class="copy-rights">&copy; Daphner Aulibrice. All Rights Reserved.</div> -->
+</body>
+</html>
+
+
+

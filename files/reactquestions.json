@@ -1,0 +1,158 @@
+[
+    {
+        "question": "What is React?",
+        "answer": "React is a JavaScript library created by facebook for building user interfaces. React allows us to create reusable UI components."
+    },
+    {
+        "question": "How does react work?",
+        "answer": "Instead of manipulating the browser's DOM directly, React creates a virtual DOM in memory, where it does all the necessary manipulating, before making the changes in the browser DOM. React only changes what needs to be changed!"
+    },
+    {
+        "question": "React History",
+        "answer": "Current version of React.JS is V18.0.0 (April 2022). Initial Release to the Public (V0.3.0) was in July 2013. React.JS was first used in 2011 for Facebook's Newsfeed feature."
+    },
+    {
+        "question": "What is ES6?",
+        "answer": "ES6 stands for ECMAScript 6. ECMAScript was created to standardize JavaScript, and ES6 is the 6th version of ECMAScript, it was published in 2015, and is also known as ECMAScript 2015."
+    },
+    {
+        "question": "What are Classes?",
+        "answer": "A class is a type of function, but instead of using the keyword function to initiate it, we use the keyword class, and the properties are assigned inside a constructor() method."
+    },
+    {
+        "question": "Class Inheritance",
+        "answer": "To create a class inheritance, use the extends keyword. A class created with a class inheritance inherits all the methods from another class."
+    },
+    {
+        "question": "What About 'this' keyword?",
+        "answer": "In regular functions the this keyword represented the object that called the function, which could be the window, the document, a button or whatever. With arrow functions, the this keyword always represents the object that defined the arrow function."
+    },
+    {
+        "question": "Array Methods .map()",
+        "answer": "The .map() method allows you to run a function on each item in the array, returning a new array as the result. In React, you will render lists with some type of loop. The JavaScript map() array method is generally the preferred method."
+    },
+    {
+        "question": "Spread Operator",
+        "answer": "The JavaScript spread operator (...) allows us to quickly copy all or part of an existing array or object into another array or object."
+    },
+    {
+        "question": "React ES6 Modules",
+        "answer": "JavaScript modules allow you to break up your code into separate files. This makes it easier to maintain the code-base. ES Modules rely on the import and export statements."
+    },
+    {
+        "question": "Export",
+        "answer": "There are two types of exports: Named and Default. You can only have one default export in a file but multiple name exports."
+    },
+    {
+        "question": "Import named exports from the file person.js:",
+        "answer": "import { name, age } from './person.js'; - name and age aboth named exports."
+    },
+    {
+        "question": "Import a default export from the file message.js:",
+        "answer": "import message from './message.js';"
+    },
+    {
+        "question": "Ternary Operator",
+        "answer": "The ternary operator is a simplified conditional operator like if / else. Syntax: condition ? <expression if true> : <expression if false>"
+    },
+    {
+        "question": "What is JSX?",
+        "answer": "JSX stands for JavaScript XML. JSX allows us to write HTML elements in JavaScript and place them in the DOM without any createElement()  and/or appendChild() methods. "
+    },
+    {
+        "question": "Expressions in JSX",
+        "answer": "With JSX you can write expressions inside curly braces { }. The expression can be a React variable, or property, or any other valid JavaScript expression. JSX will execute the expression and return the result."
+    },
+    {
+        "question": "React Components",
+        "answer": "Components are like functions that return HTML elements. Components are independent and reusable bits of code. They serve the same purpose as JavaScript functions, but work in isolation and return HTML."
+    },
+    {
+        "question": "Class Component",
+        "answer": "A class component must include the extends React.Component statement. This statement creates an inheritance to React.Component, and gives your component access to React.Component's functions. The component also requires a render() method, this method returns HTML."
+    },
+    {
+        "question": "Function Component",
+        "answer": "A Function component also returns HTML, and behaves much the same way as a Class component, but Function components can be written using much less code, are easier to understand."
+    },
+    {
+        "question": "Rendering a Component",
+        "answer": "Display the Car component in the 'root' element: const root = ReactDOM.createRoot(document.getElementById('root')); root.render(<Car />);"
+    },
+    {
+        "question": "Props",
+        "answer": "Components can be passed as props, which stands for properties. Props are like function arguments, and you send them into the component as attributes."
+    },
+    {
+        "question": "React Events",
+        "answer": "React events are written in camelCase syntax: onClick instead of onclick. React event handlers are written inside curly braces: onClick={shoot}  instead of onClick='shoot()'. "
+    },
+    {
+        "question": "Send 'Goal!' as a parameter to the shoot function, using arrow function:",
+        "answer": "<button onClick={() => shoot('Goal!')}>Take the shot!</button>"
+    },
+    {
+        "question": "Keys",
+        "answer": "Keys allow React to keep track of elements. This way, if an item is updated or removed, only that item will be re-rendered instead of the entire list."
+    },
+    {
+        "question": "Add React Router",
+        "answer": "To add React Router in your application, run this in the terminal from the root directory of the application: npm i -D react-router-dom  or npm i -D react-router-dom@latest to get the lates version."
+    },
+    {
+        "question": "React Memo",
+        "answer": "Using memo will cause React to skip rendering a component if its props have not changed."
+    },
+    {
+        "question": "React Hooks - What is a Hook?",
+        "answer": "Hooks allow us to 'hook' into React features such as state and lifecycle methods. Hooks allow function components to have access to state and other React features. Because of this, class components are generally no longer needed."
+    },
+    {
+        "question": "Hook Rules",
+        "answer": "There are 3 rules for hooks: 1 - Hooks can only be called inside React function components. 2 - Hooks can only be called at the top level of a component. 3 - Hooks cannot be conditional."
+    },
+    {
+        "question": "React useState Hook",
+        "answer": "The React useState Hook allows us to track state in a function component. State generally refers to data or properties that need to be tracking in an application."
+    },
+    {
+        "question": "Initialize useState",
+        "answer": "We initialize our state by calling useState in our function component."
+    },
+    {
+        "question": "useState accepts an initial state and returns two values:",
+        "answer": "1 - The current state. 2 - A function that updates the state."
+    },
+    {
+        "question": "React useEffect Hooks",
+        "answer": "The useEffect Hook allows you to perform side effects in your components. Some examples of side effects are: fetching data, directly updating the DOM, and timers."
+    },
+    {
+        "question": "useEffect accepts two arguments.",
+        "answer": "useEffect(<function>, <dependency>); - The second argument is optional."
+    },
+    {
+        "question": "React useContext Hook",
+        "answer": "React Context is a way to manage state globally. It can be used together with the useState Hook to share state between deeply nested components more easily than with useState alone."
+    },
+    {
+        "question": "React useRef Hook",
+        "answer": "The useRef Hook allows you to persist values between renders. It can be used to store a mutable value that does not cause a re-render when updated."
+    },
+    {
+        "question": "React useReducer Hook",
+        "answer": "The useReducer Hook is similar to the useState Hook. It allows for custom state logic. If you find yourself keeping track of multiple pieces of state that rely on complex logic, useReducer may be useful."
+    },
+    {
+        "question": "React useCallback Hook",
+        "answer": "The React useCallback Hook returns a memoized callback function. This allows us to isolate resource intensive functions so that they will not automatically run on every render. The useCallback Hook only runs when one of its dependencies update."
+    },
+    {
+        "question": "React useMemo Hook",
+        "answer": "The React useMemo Hook returns a memoized value. The useMemo Hook only runs when one of its dependencies update. The useMemo Hook can be used to keep expensive, resource intensive functions from needlessly running."
+    },
+    {
+        "question": "React Custom Hooks",
+        "answer": "Hooks are reusable functions. When you have component logic that needs to be used by multiple components, we can extract that logic to a custom Hook. Custom Hooks start with 'use'. Example: useFetch."
+    }
+]
