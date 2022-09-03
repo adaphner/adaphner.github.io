@@ -19,9 +19,6 @@ function updateSubPage(subPage, subNav) {
     showPage.style.display = 'flex';
     subNav.style.backgroundColor = '#ffffff';
     // subNav.style.borderTop = '1px solid #204666';
-
-    // const updateTitle = document.getElementsByTagName('title');
-    // updateTitle.textContent = `Webdevio.com | ${page} | Website Development | Web Design`;
 }
 
 
@@ -180,7 +177,7 @@ calculatorDriver();
 //to display time
 
 function displayTime() {
-    const days = ["SUN", "MON", "TUES", "WED", "THU", "FRI", "SAT"];
+    // const days = ["SUN", "MON", "TUES", "WED", "THU", "FRI", "SAT"];
     setInterval(() => {
         let date = new Date();
         // document.getElementById("timer").innerText = days[date.getDay()] + " " + date.toLocaleTimeString();
@@ -214,7 +211,7 @@ const lightBulb = document.getElementById("dyk-lb");
 lightBulb.addEventListener("mouseover", () => lightBulb.setAttribute("src", "images/lb-on.png"));
 lightBulb.addEventListener("mouseleave", () => lightBulb.setAttribute("src", "images/lbg.png"));
 
-//to get random funfacts from the json file
+//to fetch random funfacts
 function getFunFacts() {
     fetch("/files/funfacts.json")
         .then(response => response.json())
@@ -231,7 +228,7 @@ setInterval(getFunFacts, 60000);
 
 document.getElementById("dyk-lb").addEventListener("click", () => getFunFacts());
 
-//to get JS Q&A from the json file - linear order
+//to fetch JS Q&A - sequencial order
 let index = 0;
 
 function updateOutput(question, answer) {
@@ -261,7 +258,7 @@ question.click();
 
 
 
-//to get previous JS Q&A from the json file
+//to fetch previous JS Q&A
 const prevQuestionBtn = document.getElementById("prev-question-btn");
 prevQuestionBtn.addEventListener("click", () => {
     fetch("/files/jsquestions.json")
@@ -282,7 +279,7 @@ prevQuestionBtn.addEventListener("click", () => {
 });
 
 
-//to get random quotes from the json file
+//to fetch random quotes
 function getQuotes() {
     fetch("/files/quotes.json")
         .then(response => response.json())

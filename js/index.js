@@ -1,8 +1,6 @@
 //to process and update navigation tabs
 document.querySelectorAll('.nav-tab').forEach(nav => nav.addEventListener('click', (e) => {
     const page = e.target.innerText;
-    // console.log('Page:', page);
-    // console.log('Nav:', nav);
     updatePage(page, nav);
 }));
 
@@ -24,9 +22,6 @@ function updatePage(page, nav) {
     const showPage = document.getElementById(page);
     showPage.style.display = 'flex';
     nav.style.borderBottom = '1px solid #204666';
-
-    // const updateTitle = document.getElementsByTagName('title');
-    // updateTitle.textContent = `Webdevio.com | ${page} | Website Development | Web Design`;
 }
 
 //Change the social icons on mouse over and mouse leave
@@ -44,6 +39,7 @@ document.querySelectorAll('.ft-social-icons').forEach(icon => icon.addEventListe
             break;
     }
 }));
+
 document.querySelectorAll('.ft-social-icons').forEach(icon => icon.addEventListener('mouseleave', () => {
     switch (icon.id) {
         case 'linkedin-icon':
@@ -66,8 +62,7 @@ window.onscroll = () => {
     const subNav = document.getElementById('projects-sub-nav');
 
     if (document.body.scrollTop > 450 || document.documentElement.scrollTop > 450) {
-        // console.log(document.documentElement.scrollTop);
-        //to shrink the nav bars on scroll
+        //to shrink the nav bars when scrolling pass 450px
         //mainNav.style.height = '40px';
         // subNav.style.height = '40px';
         // subNav.style.top = '40px';
@@ -76,7 +71,7 @@ window.onscroll = () => {
         subNav.style.display = 'none';
 
     } else {
-        //to expand the nav bars on scroll
+        //to expand the nav bars on scrolling back
         // mainNav.style.height = '60px';
         // subNav.style.height = '60px';
         // subNav.style.top = '60px';

@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
 :root {
-    /* --font-color: #f1f1f1;
+    --font-color: #f1f1f1;
     --font-color: #181818;
     --main-bg-color: #222222;
     --bg-color: #181818;
-    --bg-color: #fffff4; */
+    --bg-color: #fffff4;
     --orange-accent: #812e17;
 }
 
@@ -23,7 +23,6 @@ body {
     min-height: 100vh;
     min-width: 100vw;
     scroll-behavior: smooth;
-    /* overflow-x: hidden; */
 }
 
 #navigation {
@@ -35,9 +34,7 @@ body {
     min-width: 375px;
     height: 60px;
     border: none;
-    /* color: #f1f1f1; */
     color: #222222;
-    /* background-color: #181818; */
     background-color: #f5f5f5;
     transition: 0.3s ease-in;
     z-index: 999;
@@ -55,6 +52,7 @@ body {
 .nav-tab {
     height: 100%;
     width: 150px;
+    color: #222222;
     background-color: #f5f5f5;
     font-size: 1rem;
     cursor: pointer;
@@ -140,7 +138,6 @@ body {
 }
 
 .short-bio h2 {
-    /* color: #812e17; */
     color: #204666;
     padding-bottom: 20px;
 }
@@ -153,7 +150,6 @@ body {
 .portfolio-btn button {
     margin: 0 50px 30px 0;
 }
-
 
 .portfolio-btn button {
     height: 40px;
@@ -172,7 +168,6 @@ body {
     background-color: #204666;
 }
 
-/* about me*/
 
 
 /* Links and Social Section */
@@ -189,9 +184,7 @@ body {
     height: 50px;
 }
 
-/* Bottom Footer */
 footer {
-    /* display: flex; */
     width: 100%;
     min-width: 375px;
     min-height: 200px;
@@ -209,12 +202,12 @@ footer {
 }
 
 .footer-box {
-    width: 300px;
+    width: 260px;
 }
 
 .footer-social {
     display: flex;
-    width: 200px;
+    width: 260px;
 }
 
 @media screen and (max-width: 950px) {
@@ -241,14 +234,3 @@ footer {
     width: 50px;
     height: 50px;
 }
-
-/* .copy-rights {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    bottom: 0px;
-    width: 100%;
-    height: 50px;
-    cursor: default;
-} */

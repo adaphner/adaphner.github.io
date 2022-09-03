@@ -26,7 +26,6 @@
 .projects-tab {
     height: 100%;
     width: 150px;
-    /* color: #f1f1f1; */
     color: #222222;
     font-size: 1rem;
     cursor: pointer;
@@ -43,8 +42,7 @@
 
 
 .projects-tab:hover {
-    color: #555555;
-    border-top: 1px solid #204666;
+    color: #555555
 }
 
 .projects-content {
@@ -109,7 +107,6 @@
     width: 99.3%;
     padding-right: 5px;
     color: #f1f1f1;
-    /* border-bottom: 2px solid #35788c; */
     background-color: #204666;
     word-break: break-all;
 }
@@ -274,7 +271,6 @@
     width: 100%;
     min-width: 350px;
     min-height: 350px;
-    /* background-color: #222222; */
     background-image: url('/images/bg-scroll.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -374,9 +370,9 @@
     width: 400px;
 }
 
-#dyk-div h3 {
+#dyk-div p {
     padding-top: 10px;
-    color: #204666;
+    color: #f1f1f1;
 }
 
 #dyk-div img {
