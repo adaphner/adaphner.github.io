@@ -218,10 +218,9 @@ function getFunFacts() {
         .then(fact => {
             let displayFunFact = document.getElementById("fun-fact");
             let randomFact = Math.floor(Math.random() * fact.length);
-
-            displayFunFact.innerText = `${fact[randomFact].funfact.toUpperCase()}`;
+            displayFunFact.innerText = `${fact[randomFact].funfact}`;
         })
-        .catch((err) => console.log("Something went wrong. " + err));
+        .catch((err) => console.log("Something went wrong." + err));
 };
 getFunFacts();
 setInterval(getFunFacts, 60000);
