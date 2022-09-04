@@ -88,6 +88,11 @@
     color: #204666;
 }
 
+.description p a {
+    text-decoration: none;
+    color: #3F6B9B;
+}
+
 
 #summary-total-div {
     display: flex;
@@ -169,58 +174,12 @@
     max-width: 700px;
 }
 
-#hex-one {
+.hex-bgcolor {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 107px;
     width: 50%;
-    background-color: #35788c;
-}
-
-#hex-two {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 107px;
-    width: 50%;
-    background-color: #6398AA;
-}
-
-#hex-three {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 107px;
-    width: 50%;
-    background-color: #5E8379;
-}
-
-#hex-four {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 107px;
-    width: 50%;
-    background-color: #79A1C7;
-}
-
-#hex-five {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 106px;
-    width: 50%;
-    background-color: #204666;
-}
-
-#hex-six {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 106px;
-    width: 50%;
-    background-color: #3F6B9B;
 }
 
 .hex-number {
@@ -314,7 +273,7 @@
 
 #btn-increment button,
 #btn-reset button {
-    width: 120px;
+    width: 150px;
     height: 40px;
     border: none;
     border-radius: 5px;
@@ -352,12 +311,12 @@
     flex-direction: column;
     width: 100%;
     padding: 25px 0;
-    border: 1px solid #296e70;
+    background-color: #478e91;
 }
 
 .dyk-div p {
     padding-top: 10px;
-    color: #222222;
+    color: #f1f1f1;
     cursor: default;
 }
 
@@ -382,7 +341,7 @@
     line-height: 25px;
     padding: 0 10px;
     color: #f1f1f1;
-    background-color: #478e91;
+    background-color: #204666;
 }
 
 
