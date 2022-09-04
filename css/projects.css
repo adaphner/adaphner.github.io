@@ -14,7 +14,6 @@
     z-index: 555;
 }
 
-
 #projects-sub-div {
     display: flex;
     align-items: center;
@@ -39,7 +38,6 @@
         width: 110px;
     }
 }
-
 
 .projects-tab:hover {
     color: #555555
@@ -347,7 +345,6 @@
 #btn-reset button:active {
     background-color: #857f7d;
 }
-
 
 /* Fun Facts Section */
 .dyk-div {
