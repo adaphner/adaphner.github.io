@@ -9,23 +9,39 @@ document.getElementById('default').click();
 
 function updatePage(page, nav) {
 
-    //reset all the pages display to 'none'
+    //reset pages display and borderbottom
     document.querySelectorAll('.page-content').forEach((pgs) => pgs.style.display = 'none');
-
-    // reset bg and borders of all the tabs
     document.querySelectorAll('.nav-tab').forEach((navs) => {
-        // navs.style.backgroundColor = '#f5f5f5';
         navs.style.borderBottom = '1px solid #f5f5f5';
     });
 
-    //to show the content of the clicked on tab by the page 'id'
+    //to show the content of the clicked tab
     const showPage = document.getElementById(page);
     showPage.style.display = 'flex';
     nav.style.borderBottom = '1px solid #204666';
 }
 
-//Change the social icons on mouse over and mouse leave
+window.onscroll = () => {
+    const mainNav = document.getElementById('navigation');
+    if (document.body.scrollTop > 450 || document.documentElement.scrollTop > 450) {
+        //to change nav and subnav display when scrolling pass 450px
+        mainNav.style.display = 'none';
+    } else {
+        mainNav.style.display = 'flex';
+    }
+}
+window.onscroll = () => {
+    const subNav = document.getElementById('projects-sub-nav');
+    //to change subnav display when scrolling pass 250px
+    if (document.body.scrollTop > 250 || document.documentElement.scrollTop > 250) {
+        subNav.style.display = 'none';
 
+    } else {
+        subNav.style.display = 'flex';
+    }
+}
+
+//Change the social icons on mouseover
 document.querySelectorAll('.ft-social-icons').forEach(icon => icon.addEventListener('mouseover', () => {
     switch (icon.id) {
         case 'linkedin-icon':
@@ -40,6 +56,7 @@ document.querySelectorAll('.ft-social-icons').forEach(icon => icon.addEventListe
     }
 }));
 
+//Change the social icons on mouseleave
 document.querySelectorAll('.ft-social-icons').forEach(icon => icon.addEventListener('mouseleave', () => {
     switch (icon.id) {
         case 'linkedin-icon':
@@ -55,30 +72,6 @@ document.querySelectorAll('.ft-social-icons').forEach(icon => icon.addEventListe
 }));
 
 
-// When the user scrolls down 150px from the top of the document, resize the navbar's
-//padding and the logo's font size
-window.onscroll = () => {
-    const mainNav = document.getElementById('navigation');
-    const subNav = document.getElementById('projects-sub-nav');
 
-    if (document.body.scrollTop > 450 || document.documentElement.scrollTop > 450) {
-        //to shrink the nav bars when scrolling pass 450px
-        //mainNav.style.height = '40px';
-        // subNav.style.height = '40px';
-        // subNav.style.top = '40px';
-
-        mainNav.style.display = 'none';
-        subNav.style.display = 'none';
-
-    } else {
-        //to expand the nav bars on scrolling back
-        // mainNav.style.height = '60px';
-        // subNav.style.height = '60px';
-        // subNav.style.top = '60px';
-
-        mainNav.style.display = 'flex';
-        subNav.style.display = 'flex';
-    }
-}
 
 

@@ -4,21 +4,20 @@ document.querySelectorAll('.projects-tab').forEach(subNav => subNav.addEventList
     updateSubPage(subPage, subNav);
 }));
 
-//to display the home subPage by default
+//to display Basics subPage by default
 document.getElementById('default-projects').click();
 
 function updateSubPage(subPage, subNav) {
 
     document.querySelectorAll('.projects-content').forEach((subPage) => subPage.style.display = 'none');
     document.querySelectorAll('.projects-tab').forEach((subNav) => {
-        subNav.style.backgroundColor = '#f5f5f5';
-        // subNav.style.borderTop = '1px solid #f5f5f5';
+        subNav.style.backgroundColor = '#ffffff';
+        subNav.style.borderBottom = '1px solid #ffffff';
     });
 
     const showPage = document.getElementById(subPage);
     showPage.style.display = 'flex';
-    subNav.style.backgroundColor = '#ffffff';
-    // subNav.style.borderTop = '1px solid #204666';
+    subNav.style.borderBottom = '1px solid #204666';
 }
 
 //to initialize background color and display initial hex values
@@ -158,7 +157,6 @@ function calculatorDriver() {
 calculatorDriver();
 
 //to display time
-
 function displayTime() {
     // const days = ["SUN", "MON", "TUES", "WED", "THU", "FRI", "SAT"];
     setInterval(() => {
@@ -237,7 +235,6 @@ question.addEventListener("click", () => {
         .catch((err) => console.log("Something went wrong. " + err));
 });
 question.click();
-
 
 
 //to fetch previous JS Q&A
