@@ -87,6 +87,10 @@
     color: #204666;
 }
 
+.description p {
+    width: 100%;
+}
+
 .description a {
     width: 100%;
     color: #3F6B9B;
