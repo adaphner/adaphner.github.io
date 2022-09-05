@@ -273,10 +273,3 @@ getQuotes();
 setInterval(getQuotes, 100000);
 
 document.getElementById("quote-btn").addEventListener("click", () => getQuotes());
-
-
-//to scroll ba to the top when the footer logo is clicked.
-document.getElementById('scroll-to-top').addEventListener('click', () => {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
-});
