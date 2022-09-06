@@ -91,12 +91,47 @@
     width: 100%;
 }
 
-.description a {
+.view-src-link {
     width: 100%;
-    color: #3F6B9B;
-    margin-top: 10px;
 }
 
+.view-src-link button {
+    display: flex;
+    align-items: center;
+    float: left;
+    width: 170px;
+    height: 45px;
+    border: none;
+    overflow: hidden;
+    color: #1e5d91;
+    background-color: #f5f5f5;
+    transition: 0.2s ease-in;
+    cursor: pointer;
+}
+
+.view-src-link button:hover {
+    border-bottom: 1px solid #1e5d91;
+}
+
+.view-src-text {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    width: 130px;
+    height: 95%;
+}
+
+.view-src-icon {
+    display: flex;
+    align-items: center;
+    width: 40px;
+    height: 95%;
+    font-size: 24px;
+}
+
+ion-icon {
+    pointer-events: none;
+}
 
 #summary-total-div {
     display: flex;
@@ -356,6 +391,7 @@
     width: 100%;
     max-width: 1200px;
     min-height: 200px;
+    background-color: #f0ecec;
 }
 
 .graphic-divs h4 {

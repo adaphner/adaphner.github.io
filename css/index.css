@@ -86,17 +86,19 @@ body {
     background-color: #ffffff;
 }
 
-#Portfolio {
-    background-image: url('/images/hm-bg.svg');
+.bg-wrapper {
+    width: 100%;
+    padding: 50px 0;
+    /* background-image: url('/images/hm-bg.svg'); */
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 @media screen and (max-width: 1200px) {
 
-    #Portfolio {
+    /* .bg-wrapper {
         background-image: url('/images/hm-bg-1200-600.svg');
-    }
+    } */
 
     .description {
         padding-right: none;
@@ -105,16 +107,16 @@ body {
 
 @media screen and (max-width: 900px) {
 
-    #Portfolio {
+    /* .bg-wrapper {
         background-image: url('/images/hm-bg-900-600.svg');
-    }
+    } */
 }
 
 @media screen and (max-width: 600px) {
 
-    #Portfolio {
+    /* .bg-wrapper {
         background-image: url('/images/da-bg-600-600.svg');
-    }
+    } */
 }
 
 #bio-wrapper {
@@ -140,35 +142,163 @@ body {
     text-align: left;
 }
 
-.short-bio h2 {
+.short-bio h1 {
+    font-size: 32px;
     color: #204666;
     padding-bottom: 20px;
 }
 
-.portfolio-btn {
+.portfolio-btns {
     width: 100%;
     max-width: 700px;
 }
 
-.portfolio-btn button {
+.icon-styled-btn {
+    display: flex;
+    align-items: center;
+    border: none;
+    overflow: hidden;
+    float: left;
+    width: 230px;
+    height: 45px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #f1f1f1;
+    cursor: pointer;
+    transition: 0.1s ease;
+    background-color: #204666;
+}
+
+.icon-styled-btn:hover {
+    background-color: #1f5a63;
+}
+
+.btn-text {
+    width: 170px;
+}
+
+.btn-icon {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 60px;
+    font-size: 32px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.first-btn {
     margin: 0 50px 30px 0;
 }
 
-.portfolio-btn button {
-    height: 40px;
-    width: 230px;
-    float: left;
-    border: none;
-    border-radius: 5px;
+.portfolio-content {
+    background: #273043;
+    width: 100%;
+    padding: 75px 0;
     color: #f1f1f1;
-    font-size: 14px;
-    cursor: pointer;
-    background-color: #204666;
-    transition: 0.1s ease-in;
 }
 
-.portfolio-btn button:hover {
-    background-color: #123347;
+.cards-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f1f1f1;
+    width: 100%;
+    height: 100px;
+}
+
+.cards-section {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.exp-cards {
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 270px;
+    padding: 10px 0;
+    width: 100%;
+}
+
+.skill-cards {
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 400px;
+    padding: 10px 0;
+    width: 100%;
+}
+
+.inner-exp-cards {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    width: 95%;
+    padding: 15px 0;
+    border-radius: 10px;
+    background-color: #283246;
+}
+
+.inner-exp-cards p {
+    color: #2a9d8f;
+}
+
+.inner-skill-cards {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    width: 47%;
+    padding: 15px 0;
+    border-radius: 10px;
+    background-color: #283246;
+}
+
+.inner-skill-cards h3 {
+    color: #2a9d8f;
+}
+
+.inner-skill-cards .cards-icon {
+    color: #ee6c4d;
+}
+
+.cards-icon {
+    font-size: 32px;
+}
+
+@media screen and (max-width: 810px) {
+    .exp-cards:nth-child(1) {
+        max-width: 405px;
+    }
+
+    .exp-cards:nth-child(2) {
+        max-width: 405px;
+    }
+
+    .exp-cards:nth-child(3) {
+        max-width: 810px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .exp-cards:nth-child(1) {
+        max-width: 540px;
+    }
+
+    .exp-cards:nth-child(2) {
+        max-width: 540px;
+    }
+}
+
+.portfolio-more {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 15px;
+    width: 100%;
+    height: 200px;
+    color: #204666;
 }
 
 /* Links and Social Section */
@@ -224,6 +354,19 @@ footer {
     margin-bottom: 50px;
     border-bottom: 1px solid #812e17;
 
+}
+
+.back-to-top {
+    font-size: 32px;
+    font-weight: 500;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+}
+
+.back-to-top:hover {
+    border: 1px solid #f1f1f1;
+    border-radius: 50%;
 }
 
 .da-logo img {

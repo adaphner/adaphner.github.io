@@ -13,6 +13,7 @@
     <meta name="description" content="Welcome to my portfolio site adaphner.github.io. 
     My name is Daphner Aulibrice and I am a Software Engineer.">
     <link rel="icon" href="/images/da-favicon.png" type="image/x-icon">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js" defer></script>
     <link rel="stylesheet" type="text/css" href="css/index.css">
     <link rel="stylesheet" type="text/css" href="css/projects.css">
     <link rel="stylesheet" type="text/css" href="css/resume.css">
@@ -37,26 +38,120 @@
     <!-- Home Page Tab -->
     <div id="Portfolio" class="page-content">
         <div class="spaces"></div>  
-        <div id="bio-wrapper">
-            <div class="short-bio">
-                <h2>Daphner Aulibrice</h2>
-                <p>Software Engineer | Entrepreneur | USMC Veteran.</p>
+        <div class="bg-wrapper">
+            <div id="bio-wrapper">
+                <div class="short-bio">
+                    <h1>Daphner Aulibrice</h1>
+                    <p>Software Engineer | Entrepreneur | USMC Veteran.</p>
+                </div>
+    
+                <div class="short-bio">
+                    <p>Specialised in frontend and backend development of complex and scalable software applications.</p>
+                </div>
+    
+                <div class="portfolio-btns">
+                    <a href="mailto:aulibriced@gmail.com">
+                        <button type="button" class="icon-styled-btn first-btn">
+                            <span class="btn-text">Send me an email</span>
+                            <span class="btn-icon">
+                                <ion-icon name="mail-outline"></ion-icon>
+                            </span>
+                        </button>
+                    </a>
+                    <a href="/files/A-Daphner-Resume.pdf" download="Daphner-Aulibrice-Resume">
+                        <button type="button" class="icon-styled-btn">
+                            <span class="btn-text">Download Resume</span>
+                            <span class="btn-icon">
+                                <ion-icon name="cloud-download-outline"></ion-icon>
+                            </span>
+                        </button>
+                    </a>
+                </div>
             </div>
-
-            <div class="short-bio">
-                <p>Specialised in frontend and backend development of complex and scalable software applications.</p>
-            </div>
-
-            <div class="portfolio-btn">
-                <a href="mailto:aulibriced@gmail.com">
-                    <button type="button">SEND ME AN EMAIL</button>
-                </a>
-                <a href="/files/A-Daphner-Resume.pdf" download="Daphner-Aulibrice-Resume">
-                    <button type="button">DOWNLOAD RESUME</button>
-                </a>
-            </div> 
         </div>
-        <div class="spaces"></div>
+
+        <div class="portfolio-content">
+            <div class="cards-section">
+                <section class="cards exp-cards">
+                    <div class="inner-exp-cards">
+                        <h2>11+</h2>
+                        <p>Years of Work Experience</p>
+                        <span class="cards-icon">
+                            <ion-icon name="briefcase-outline"></ion-icon>
+                        </span>
+                    </div>
+                </section> 
+                <section class="cards exp-cards">
+                    <div class="inner-exp-cards">
+                        <h2>50+</h2>
+                        <p>Projects completed</p>
+                        <span class="cards-icon">
+                        <ion-icon name="code-working-outline"></ion-icon>
+                    </span>
+                    </div>
+                </section>
+                <section class="cards exp-cards">
+                    <div class="inner-exp-cards">
+                        <h2>3+</h2>
+                        <p>Years of Entrepreneurial Experience</p>
+                        <span class="cards-icon">
+                            <ion-icon name="business-outline"></ion-icon>
+                        </span>
+                    </div>
+                </section>
+            </div>
+
+            <h2 class="cards-title">Technical Skills</h2>
+            
+            <div class="cards-section">
+                <section class="cards skill-cards">
+                    <div class="inner-skill-cards">
+                        <span class="cards-icon">
+                            <ion-icon name="code-outline"></ion-icon>
+                        </span>
+                        <h3>Front-End</h3>
+                        <p>JavaScript</p>
+                        <p>React</p>
+                        <p>HTML/CSS</p>
+                    </div>
+
+                    <div class="inner-skill-cards">
+                        <span class="cards-icon">
+                            <ion-icon name="code-slash-outline"></ion-icon>
+                        </span>
+                        <h3>Back-End</h3>
+                        <p>NodeJS/Express</p>
+                        <p>Python/Flask</p>
+                    </div>
+                </section>
+                
+                <section class="cards skill-cards">
+                    <div class="inner-skill-cards">
+                        <span class="cards-icon">
+                            <ion-icon name="server-outline"></ion-icon>
+                        </span>
+                        <h3>Databases</h3>
+                        <p>MySql</p>
+                        <p>MongoDB</p>
+                    </div>
+
+                    <div class="inner-skill-cards">
+                        <span class="cards-icon">
+                            <ion-icon name="settings-outline"></ion-icon>
+                        </span>
+                        <h3>Tools</h3>
+                        <p>Git/GitHub</p>
+                        <p>NPM/Yarn</p>
+                        <p>VS Code</p>
+                    </div>
+                </section>  
+            </div>
+        </div>
+
+        <div class="portfolio-more">
+            <q>WE ARE WHAT WE REPEATEDLY DO. EXCELLENCE, THEN, IS NOT AN ACT, BUT A HABIT.</q>
+            <p> - Will Durant</p>
+        </div>
     </div>
 
     <div id="Projects" class="page-content">
@@ -81,7 +176,17 @@
                         <br> Perform basic calculations such as addition, subtraction, division, multiplication, and modulo operations. <br>
                         <br> Tech Stack : HTML | CSS | JavaScript
                     </p>
-                    <a href="https://github.com/adaphner/Calculator-App" target="_blank" rel="noopener noreferrer">View Source code</a>
+
+                    <div class="view-src-link">
+                        <a href="https://github.com/adaphner/Calculator-App" target="_blank" rel="noopener noreferrer">
+                            <button type="button" class="view-icon-btn">
+                                <span class="view-src-text">View Source code</span>
+                                <span class="view-src-icon">
+                                    <ion-icon name="code-slash-outline"></ion-icon>
+                                </span>
+                            </button>
+                        </a>
+                    </div>
                 </div>
                 <div class="project">
                     <div id="summary-total-div">  
@@ -126,7 +231,18 @@
                             <br>This app is perfect for designing and experimenting with different color schemes. <br>
                             <br>Tech Stack : HTML | CSS | JavaScript
                         </p>
-                        <a href="https://github.com/adaphner/color-palette-generator" target="_blank" rel="noopener noreferrer">View Source code</a>
+
+                        <div class="view-src-link">
+                            <a href="https://github.com/adaphner/color-palette-generator" target="_blank" rel="noopener noreferrer">
+                                <button type="button" class="view-icon-btn">
+                                    <span class="view-src-text">View Source code</span>
+                                    <span class="view-src-icon">
+                                        <ion-icon name="code-slash-outline"></ion-icon>
+                                    </span>
+                                </button>
+                            </a>
+                        </div>
+
                         <div id="color-flipper">
                             <button id="bg-color-button" type="button">Generate Random Colors</button>
                         </div>
@@ -172,8 +288,19 @@
                         Click the lightbulb to cycle through all the fun facts without any delay. <br>
                         <br>Tech Stack : HTML | CSS | JavaScript
                     </p>
-                    <a href="https://" target="_blank" rel="noopener noreferrer">View Source code</a>
+
+                    <div class="view-src-link">
+                        <a href="https://" target="_blank" rel="noopener noreferrer" target="_blank" rel="noopener noreferrer">
+                            <button type="button" class="view-icon-btn">
+                                <span class="view-src-text">View Source code</span>
+                                <span class="view-src-icon">
+                                    <ion-icon name="code-slash-outline"></ion-icon>
+                                </span>
+                            </button>
+                        </a>
+                    </div>
                 </div>
+
                 <div class="project">
                     <div class="fun-facts">
                         <p id="fun-fact">[ Fun Facts ]</p>
@@ -338,7 +465,8 @@
     </div>
     <footer>
         <div class="da-logo">
-            <img id="scroll-to-top" src="/images/da-logo-white.svg" alt="Daphner Aulibrice logo">
+            <span id="scroll-to-top" class="back-to-top"><ion-icon name="chevron-up-outline"></ion-icon></span>
+            <!-- <img id="scroll-to-top" src="/images/da-logo-white.svg" alt="Daphner Aulibrice logo"> -->
         </div>
         <div class="footer-container">
             <div class="footer-box">
