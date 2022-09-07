@@ -24,6 +24,7 @@ body {
     min-height: 100vh;
     min-width: 100vw;
     scroll-behavior: smooth;
+    cursor: default;
 }
 
 #navigation {
@@ -128,6 +129,7 @@ body {
     max-width: 1200px;
     padding: 0 25px;
     color: #444444;
+    /* cursor: default; */
 }
 
 .da-logo-top img {
@@ -212,6 +214,7 @@ body {
     width: 100%;
     padding: 75px 0;
     color: #f1f1f1;
+    /* cursor: default; */
 }
 
 .cards-title {
