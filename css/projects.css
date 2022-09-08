@@ -83,7 +83,7 @@
 .description h2 {
     width: 100%;
     text-align: left;
-    padding-bottom: 25px;
+    padding-bottom: 15px;
     color: #204666;
 }
 
@@ -303,7 +303,6 @@ ion-icon {
     width: 575px;
     height: 370px;
     background-color: #222222;
-
 }
 
 #btn-increment,
@@ -395,11 +394,13 @@ ion-icon {
     max-width: 1200px;
     min-height: 200px;
     background-color: #f0ecec;
+    background-color: #204666;
 }
 
 .graphic-divs h4 {
     font-size: 19px;
     color: #204666;
+    color: #f1f1f1;
 }
 
 .graphic-divs img {
@@ -458,12 +459,41 @@ ion-icon {
 
 #question-btn:hover,
 #prev-question-btn:hover {
+    background-color: #204666;
     opacity: 0.8;
 }
 
 #question-btn:active,
 #prev-question-btn:active {
     background-color: #296e70;
+}
+
+/* Book Keeping */
+.book-keeping-section {
+    width: 100%;
+    max-width: 1200px;
+}
+
+.book-keeping-desc {
+    width: 100%;
+    max-width: 1200px;
+    padding: 25px 25px;
+    text-align: left;
+    color: 222222;
+    background-color: #f5f5f5;
+}
+
+.book-keeping-desc h3 {
+    color: #204666;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.book-keeping-section img {
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
 }
 
 /* quotes div */
