@@ -392,7 +392,7 @@ ion-icon {
     align-items: center;
     width: 100%;
     max-width: 1200px;
-    min-height: 200px;
+    padding: 25px;
     background-color: #f0ecec;
     background-color: #204666;
 }
@@ -406,6 +406,12 @@ ion-icon {
 .graphic-divs img {
     width: 110px;
     height: auto;
+}
+
+@media screen and (max-width: 570px) {
+    .graphic-divs img {
+        display: none;
+    }
 }
 
 .qna-div {

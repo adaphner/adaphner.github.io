@@ -89,11 +89,11 @@ body {
 }
 
 .bg-wrapper {
+    display: flex;
+    flex-wrap: wrap;
     width: 100%;
+    max-width: 1200px;
     padding: 50px 0;
-    /* background-image: url('/images/hm-bg.svg'); */
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 @media screen and (max-width: 1200px) {
@@ -126,9 +126,31 @@ body {
     flex-direction: column;
     row-gap: 30px;
     width: 100%;
-    max-width: 1200px;
+    max-width: 700px;
     padding: 0 25px;
     color: #444444;
+}
+
+.bio-image {
+    width: 350px;
+    height: 350px;
+    background-image: url('/images/launch-day.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+@media screen and (max-width: 1100px) {
+    .bio-image {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .bio-image {
+        width: 200px;
+        height: 200px;
+    }
 }
 
 .da-logo-top img {
@@ -138,7 +160,6 @@ body {
 
 .short-bio {
     width: 100%;
-    max-width: 700px;
     font-size: 19px;
     line-height: 30px;
     text-align: left;
@@ -155,16 +176,17 @@ body {
     flex-wrap: wrap;
     gap: 25px;
     width: 100%;
-    max-width: 700px;
     padding: 25px 0;
-    background-color: #273043;
-    background-color: #2c374d;
+}
+
+@media screen and (max-width: 680px) {
+    .bio-btns-main {
+        background-color: #2c374d;
+    }
 }
 
 .bio-btn-container {
     display: flex;
-    width: 100%;
-    max-width: 300px;
 }
 
 .bio-btn-container a {
