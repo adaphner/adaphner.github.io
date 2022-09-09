@@ -97,28 +97,9 @@ body {
 }
 
 @media screen and (max-width: 1200px) {
-
-    /* .bg-wrapper {
-        background-image: url('/images/hm-bg-1200-600.svg');
-    } */
-
     .description {
         padding-right: none;
     }
-}
-
-@media screen and (max-width: 900px) {
-
-    /* .bg-wrapper {
-        background-image: url('/images/hm-bg-900-600.svg');
-    } */
-}
-
-@media screen and (max-width: 600px) {
-
-    /* .bg-wrapper {
-        background-image: url('/images/da-bg-600-600.svg');
-    } */
 }
 
 #bio-wrapper {
@@ -180,8 +161,8 @@ body {
 }
 
 @media screen and (max-width: 680px) {
-    .bio-btns-main {
-        background-color: #2c374d;
+    .short-bio {
+        text-align: center;
     }
 }
 
