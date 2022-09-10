@@ -8,7 +8,7 @@
     top: 50px;
     width: 100%;
     height: 50px;
-    background-color: #ffffff;
+    background-color: var(--white-bg);
     transition: ease;
     z-index: 555;
 }
@@ -39,7 +39,7 @@
 }
 
 .projects-tab:hover {
-    color: #ee6c4d;
+    color: var(--text-orange);
 }
 
 .projects-tab:active {
@@ -60,7 +60,7 @@
     flex-wrap: wrap;
     width: 100%;
     max-width: 1200px;
-    color: #ffffff;
+    color: var(--main-font-color);
     background-color: #f5f5f5;
     padding: 25px;
 }
@@ -88,7 +88,7 @@
     width: 100%;
     text-align: left;
     padding-bottom: 15px;
-    color: #204666;
+    color: var(--title-blue);
 }
 
 .description ul {
@@ -156,7 +156,7 @@ ion-icon {
     width: 99.3%;
     padding-right: 5px;
     color: #f1f1f1;
-    background-color: #204666;
+    background-color: var(--title-blue);
     word-break: break-all;
 }
 
@@ -176,7 +176,7 @@ ion-icon {
     width: 24%;
     min-width: 60px;
     cursor: default;
-    background-color: #204666;
+    background-color: var(--title-blue);
 }
 
 .btn-operation,
@@ -230,7 +230,7 @@ ion-icon {
 .hex-number {
     width: 90px;
     padding: 4px;
-    color: #f1f1f1;
+    color: var(--main-font-color);
     background-color: #444444;
     border-radius: 15px;
 }
@@ -241,7 +241,7 @@ ion-icon {
     padding-top: 25px;
     padding-left: 25px;
     width: 100%;
-    color: #f1f1f1;
+    color: var(--main-font-color);
     font-size: 18px;
 }
 
@@ -251,7 +251,7 @@ ion-icon {
     width: 230px;
     border: none;
     border-radius: 5px;
-    color: #f1f1f1;
+    color: var(--main-font-color);
     font-size: 15px;
     cursor: pointer;
     background-color: #333333;
@@ -418,8 +418,8 @@ ion-icon {
     text-align: center;
     line-height: 25px;
     padding: 0 25px;
-    color: #f1f1f1;
-    background-color: #204666;
+    color: var(--main-font-color);
+    background-color: var(--title-blue);
 }
 
 /* Js Questions and Answers */
@@ -431,13 +431,13 @@ ion-icon {
     max-width: 1200px;
     padding: 25px;
     background-color: #f0ecec;
-    background-color: #204666;
+    background-color: var(--title-blue);
 }
 
 .graphic-divs h4 {
     font-size: 19px;
     color: #204666;
-    color: #f1f1f1;
+    color: var(--main-font-color);
 }
 
 .graphic-divs img {
@@ -460,15 +460,15 @@ ion-icon {
     max-width: 1200px;
     min-height: 375px;
     padding: 25px;
-    color: #222222;
-    background-color: #f5f5f5;
+    color: var(--text-dark-grey);
+    background-color: var(off-white-bg);
 }
 
 #question {
     display: flex;
     font-weight: bold;
     font-size: 18px;
-    color: #204666;
+    color: var(--title-blue);
 }
 
 #answer {
@@ -492,7 +492,7 @@ ion-icon {
     width: 170px;
     margin: 10px;
     border: none;
-    color: #f1f1f1;
+    color: var(--main-font-color);
     font-size: 15px;
     background-color: #478e91;
     border-radius: 20px;
@@ -502,7 +502,7 @@ ion-icon {
 
 #question-btn:hover,
 #prev-question-btn:hover {
-    background-color: #204666;
+    background-color: var(--title-blue);
     opacity: 0.8;
 }
 
@@ -523,11 +523,11 @@ ion-icon {
     padding: 25px 25px;
     text-align: left;
     color: 222222;
-    background-color: #f5f5f5;
+    background-color: var(--off-white-bg);
 }
 
 .book-keeping-desc h3 {
-    color: #204666;
+    color: var(--title-blue);
     width: 100%;
     text-align: left;
     margin-bottom: 10px;
@@ -546,7 +546,7 @@ ion-icon {
     justify-content: center;
     width: 100%;
     height: 350px;
-    background-color: #222222;
+    background-color: var(--text-dark-grey);
     cursor: default;
 }
 
