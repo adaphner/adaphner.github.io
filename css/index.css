@@ -63,7 +63,11 @@ body {
 }
 
 .nav-tab:hover {
-    color: #555555;
+    color: #ee6c4d;
+}
+
+.nav-tab:active {
+    color: #273043;
 }
 
 @media screen and (max-width: 550px) {

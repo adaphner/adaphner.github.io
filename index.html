@@ -233,40 +233,40 @@
 
             <!-- color palette generator -->
             <div class="project-wrapper">
-                    <div class="description">
-                        <h2>Color Palette Generator</h2>
-                        <ul type="circle">
-                            <li>This color palette generator generates a new set of random colors along with their corresponding hex values.</li>
-                            <li>This app is perfect for designing and experimenting with different color schemes.</li>
-                            <br>Tech Stack : HTML | CSS | JavaScript
-                        </ul>
+                <div class="description">
+                    <h2>Color Palette Generator</h2>
+                    <ul type="circle">
+                        <li>This color palette generator generates a new set of random colors along with their corresponding hex values.</li>
+                        <li>This app is perfect for designing and experimenting with different color schemes.</li>
+                        <br>Tech Stack : HTML | CSS | JavaScript
+                    </ul>
 
-                        <div class="view-src-link">
-                            <a href="https://github.com/adaphner/color-palette-generator" target="_blank" rel="noopener noreferrer">
-                                <button type="button" class="view-icon-btn">
-                                    <span class="view-src-text">View Source code
-                                        <span class="view-src-icon">
-                                            <ion-icon name="code-slash-outline"></ion-icon>
-                                        </span>
+                    <div class="view-src-link">
+                        <a href="https://github.com/adaphner/color-palette-generator" target="_blank" rel="noopener noreferrer">
+                            <button type="button" class="view-icon-btn">
+                                <span class="view-src-text">View Source code
+                                    <span class="view-src-icon">
+                                        <ion-icon name="code-slash-outline"></ion-icon>
                                     </span>
-                                </button>
-                            </a>
-                        </div>
+                                </span>
+                            </button>
+                        </a>
+                    </div>
 
-                        <div id="color-flipper">
-                            <button id="bg-color-button" type="button">Generate Random Colors</button>
-                        </div>
+                    <div id="color-flipper" class="gen-btn-div">
+                        <button id="bg-color-button" class="gen-btn" type="button">Generate Random Colors</button>
                     </div>
-                    <div class="project">
-                        <div id="hex-generator-div">
-                            <div class="hex-bgcolor"><p class="hex-number">#35788C</p></div>
-                            <div class="hex-bgcolor"><p class="hex-number">#6398AA</p></div>
-                            <div class="hex-bgcolor"><p class="hex-number">#5E8379</p></div>
-                            <div class="hex-bgcolor"><p class="hex-number">#79A1C7</p></div>
-                            <div class="hex-bgcolor"><p class="hex-number">#204666</p></div>
-                            <div class="hex-bgcolor"><p class="hex-number">#3F6B9B</p></div>
-                        </div>
+                </div>
+                <div class="project">
+                    <div id="hex-generator-div">
+                        <div class="hex-bgcolor"><p class="hex-number">#35788C</p></div>
+                        <div class="hex-bgcolor"><p class="hex-number">#6398AA</p></div>
+                        <div class="hex-bgcolor"><p class="hex-number">#5E8379</p></div>
+                        <div class="hex-bgcolor"><p class="hex-number">#79A1C7</p></div>
+                        <div class="hex-bgcolor"><p class="hex-number">#204666</p></div>
+                        <div class="hex-bgcolor"><p class="hex-number">#3F6B9B</p></div>
                     </div>
+                </div>
             </div>
 
             <div class="spaces"></div>
@@ -290,8 +290,44 @@
             
             <div class="spaces"></div>
             
-            <!-- fun facts Ssection -->
             <div class="project-wrapper">
+                <!-- password generator -->
+                <div class="description">
+                    <h2>Password Generator App</h2>
+                    <ul type="circle">
+                        <li>This app generates strong 10-15 digits password consisting of alphanumerical characters and symbols.</li>
+                        <li>Click the Generate Secure Password button to generate passwords.</li>
+                        <br>Tech Stack : HTML | CSS | JavaScript
+                    </ul>
+
+                    <div class="view-src-link">
+                        <a href="https://github.com/adaphner/password-generator" target="_blank" rel="noopener noreferrer">
+                            <button type="button" class="view-icon-btn">
+                                <span class="view-src-text">View Source code
+                                    <span class="view-src-icon">
+                                        <ion-icon name="code-slash-outline"></ion-icon>
+                                    </span>
+                                </span>
+                            </button>
+                        </a>
+                    </div>
+
+                    <div id="btn-password-div" class="gen-btn-div">
+                        <button id="btn-password" class="gen-btn" type="button">Generate Secure Password</button>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="pass-container">
+                        <div class="pass-div"><p id="pass-text">Generate Password...</p></div>
+                        <div class="len-div">Password Length: <span id="pass-len">0</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="spaces"></div>
+            
+            <div class="project-wrapper">
+                <!-- fun facts Ssection -->
                 <div class="description">
                     <h2>Fun Fact App</h2>
                     <ul type="circle">
@@ -333,8 +369,8 @@
             <!-- book keeping - react app -->
             <div class="description book-keeping-desc">
                 <h2>BOOKKS</h2>
-                <h3>Book Keeping Made Easy.</h3>
                 <ul type="circle">
+                    <li>Book Keeping Made Easy.</li>
                     <li>This application keep tracks of a company's expenses and payments.</li>
                     <li>Users are able search and filter through all the invoices in the database.</li>
                     <li>Payment details are displayed when an invoice is clicked on.</li>
