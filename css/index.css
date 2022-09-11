@@ -103,12 +103,6 @@ body {
     padding: 50px 0;
 }
 
-@media screen and (max-width: 1200px) {
-    .description {
-        padding-right: none;
-    }
-}
-
 #bio-wrapper {
     display: flex;
     flex-direction: column;
