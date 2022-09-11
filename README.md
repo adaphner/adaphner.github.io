@@ -1,6 +1,6 @@
 # Daphner Aulibrice | Software Engineer | Web Developer
 
-## Portfolio | Single Page Application (SPA).
+## Experienced software engineer with 11+ years of work experience. 
 
 Thank you for visiting my portfolio site. Please reach out if you have any questions or comments.
 
