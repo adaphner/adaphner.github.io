@@ -1,9 +1,8 @@
-# My Portfolio | Daphner Aulibrice
+# Daphner Aulibrice | Software Engineer | Web Developer
 
-## Single Page Application (SPA).
+## Experienced software engineer with 11+ years of work experience. 
 
-And yes... One major drawback of SPA is Search Engines Optimization (SEO). However, listing number one on Google wasn't one of my requirements for this project.
-I wanted a way to highlight some of my projects in a fast, responsive, and reliable way and using SPA allow me to do just that.
+Thank you for visiting my portfolio site. Please reach out if you have any questions or comments.
 
 Tech Stack: HTML - CSS - JavaScript
 
