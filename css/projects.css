@@ -246,7 +246,6 @@ ion-icon {
     width: 100%;
     color: var(--main-font-color);
     font-size: 18px;
-    background-color: var(--main-bg-color);
 }
 
 #bg-color-button,
@@ -258,18 +257,18 @@ ion-icon {
     color: var(--main-font-color);
     font-size: 15px;
     cursor: pointer;
-    background-color: #35788c;
+    background-color: var(--title-blue);
     transition: 0.1s ease-in;
 }
 
 #bg-color-button:hover,
 .gen-btn:hover {
-    background-color: var(--title-blue);
+    background-color: #35788c;
 }
 
 #bg-color-button:active,
 .gen-btn:active {
-    background-color: #35788c;
+    background-color: var(--title-blue);
 }
 
 .spaces {
