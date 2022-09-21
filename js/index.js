@@ -45,15 +45,12 @@ document.querySelectorAll('.ft-social-icons').forEach(icon => icon.addEventListe
     switch (icon.id) {
         case 'linkedin-icon':
             icon.setAttribute('src', 'images/linkedin-green.svg');
-            // icon.setAttribute('src', 'images/linkedin-light-orange.svg');
             break;
         case 'github-icon':
             icon.setAttribute("src", "images/github-green.svg");
-            // icon.setAttribute("src", "images/github-light-orange.svg");
             break;
         case 'email-icon':
             icon.setAttribute("src", "images/email-green.svg");
-            // icon.setAttribute("src", "images/email-light-orange.svg");
             break;
     }
 }));
