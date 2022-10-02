@@ -9,16 +9,16 @@ document.getElementById('default').click();
 
 function updatePage(page, nav) {
 
-    //reset pages display and borderbottom
+    //reset pages display
     document.querySelectorAll('.page-content').forEach((pgs) => pgs.style.display = 'none');
     document.querySelectorAll('.nav-tab').forEach((navs) => {
-        navs.style.borderBottom = '1px solid #f5f5f5';
+        navs.style.backgroundColor = '#273043';
     });
 
     //to show the content of the clicked tab
     const showPage = document.getElementById(page);
     showPage.style.display = 'flex';
-    nav.style.borderBottom = '1px solid #204666';
+    nav.style.backgroundColor = '#ee6c4d';
 }
 
 window.onscroll = () => {
