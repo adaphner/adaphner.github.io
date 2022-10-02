@@ -1,49 +1,4 @@
 /* Main Container */
-#projects-sub-nav {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: fixed;
-    top: 50px;
-    width: 100%;
-    height: 50px;
-    background-color: var(--white-bg);
-    transition: ease;
-    z-index: 555;
-}
-
-#projects-sub-div {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    max-width: 600px;
-    height: 100%;
-}
-
-.projects-tab {
-    height: 100%;
-    width: 150px;
-    color: #222222;
-    font-size: 1rem;
-    cursor: pointer;
-    border: none;
-    transition: ease;
-}
-
-@media screen and (max-width: 700px) {
-    .projects-tab {
-        width: 110px;
-    }
-}
-
-.projects-tab:hover {
-    color: var(--text-orange);
-}
-
-.projects-tab:active {
-    color: #273043;
-}
-
 .projects-content {
     display: none;
     flex-direction: column;

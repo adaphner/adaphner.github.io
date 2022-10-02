@@ -23,15 +23,7 @@ function updatePage(page, nav) {
 
 window.onscroll = () => {
 
-    //to change subnav display when scrolling pass 250px
-    const subNav = document.getElementById('projects-sub-nav');
-    if (document.body.scrollTop > 250 || document.documentElement.scrollTop > 250) {
-        subNav.style.display = 'none';
-    } else {
-        subNav.style.display = 'flex';
-    }
-
-    //to change nav and subnav display when scrolling pass 450px
+    //to change nav display when scrolling pass 450px
     const mainNav = document.getElementById('navigation');
     if (document.body.scrollTop > 450 || document.documentElement.scrollTop > 450) {
         mainNav.style.display = 'none';

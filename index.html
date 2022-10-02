@@ -31,21 +31,26 @@
         <div id="nav-div">
             <button type="button" id="default" class="nav-tab">Portfolio</button>
             <button type="button" class="nav-tab">Projects</button>
+            <button type="button" class="nav-tab">Resources</button>
             <button type="button" class="nav-tab">Resume</button>
         </div>
     </nav>
 
-    <!-- Home Page Tab -->
+    <!-- Home Page Content -->
     <div id="Portfolio" class="page-content">
+
+        <div class="spaces"></div>
+
         <div class="bg-wrapper">
+
             <div class="bio-image bounce-in-top">
                 <!-- svg container -->
             </div>
+
             <div id="bio-wrapper">
                 <div class="short-bio">
-                    <p>Hi, my name is</p>
                     <h1>Daphner Aulibrice</h1>
-                    <p>Software Engineer | Entrepreneur | USMC Veteran.</p>
+                    <p>Software Engineer | Entrepreneur | USMC Veteran</p>
                 </div>
     
                 <div class="short-bio">
@@ -75,8 +80,12 @@
                         </a>
                     </div>
                 </div>
+
             </div>
+
         </div>
+
+        <div class="spaces"></div>
 
         <div class="portfolio-content">
             <div class="cards-section">
@@ -160,223 +169,174 @@
         </div>
     </div>
 
+    <!-- Projects Content -->
     <div id="Projects" class="page-content">
-        <div id="projects-sub-nav">
-            <div id="projects-sub-div">
-                <button type="button" id="default-projects" class="projects-tab">Basics</button>
-                <!-- <button type="button" class="projects-tab">to be added later</button> -->
-                <button type="button" class="projects-tab">Advance</button>
-            </div>
-        </div>
 
-        <div id="Basics" class="projects-content">
+        <div class="spaces"></div>
 
-            <div class="spaces"></div>
+        <!-- calculator app -->
+        <div class="project-wrapper">
+            <div class="description">
+                <h2>Calculator App</h2>
+                <ul type="circle">
+                    <li>Fully functional calculator application.</li>
+                    <li>Responsive and beautifully designed user interface.</li>
+                    <li>Perform basic calculations such as addition, subtraction, division, multiplication, and modulo operations.</li>
+                    <br> Tech Stack : HTML | CSS | JavaScript
+                </ul>
 
-            <!-- calculator app -->
-            <div class="project-wrapper">
-                <div class="description">
-                    <h2>Calculator App</h2>
-                    <ul type="circle">
-                        <li>Fully functional calculator application.</li>
-                        <li>Responsive and beautifully designed user interface.</li>
-                        <li>Perform basic calculations such as addition, subtraction, division, multiplication, and modulo operations.</li>
-                        <br> Tech Stack : HTML | CSS | JavaScript
-                    </ul>
-
-                    <div class="view-src-link">
-                        <a href="https://github.com/adaphner/Calculator-App" target="_blank" rel="noopener noreferrer">
-                            <button type="button" class="view-icon-btn">
-                                <span class="view-src-text">View Source code
-                                    <span class="view-src-icon">
-                                        <ion-icon name="code-slash-outline"></ion-icon>
-                                    </span>
+                <div class="view-src-link">
+                    <a href="https://github.com/adaphner/Calculator-App" target="_blank" rel="noopener noreferrer">
+                        <button type="button" class="view-icon-btn">
+                            <span class="view-src-text">View Source code
+                                <span class="view-src-icon">
+                                    <ion-icon name="code-slash-outline"></ion-icon>
                                 </span>
-                            </button>
-                        </a>
-                    </div>
-                </div>
-                <div class="project">
-                    <div id="summary-total-div">  
-                        <div id="calculator-total">0</div>
-                    </div>
-                    <div id="calculator-buttons-div">    
-                        <div id="clear-btn">AC</div>
-                        <div id="delete-btn">DEL</div>
-                        <div class="btn-operation">%</div>
-                        <div class="btn-operation">÷</div>
-
-                        <div class="buttons">7</div>
-                        <div class="buttons">8</div>
-                        <div class="buttons">9</div>
-                        <div class="btn-operation">×</div>
-
-                        <div class="buttons">4</div>
-                        <div class="buttons">5</div>
-                        <div class="buttons">6</div>
-                        <div class="btn-operation">-</div>
-
-                        <div class="buttons">1</div>
-                        <div class="buttons">2</div>
-                        <div class="buttons">3</div>
-                        <div class="btn-operation">+</div>
-
-                        <div class="buttons">±</div>
-                        <div class="buttons">0</div>
-                        <div class="buttons">.</div>
-                        <div id="equal-btn">=</div>
-                    </div>
+                            </span>
+                        </button>
+                    </a>
                 </div>
             </div>
-
-            <div class="spaces"></div>
-
-            <!-- color palette generator -->
-            <div class="project-wrapper">
-                <div class="description">
-                    <h2>Color Palette Generator</h2>
-                    <ul type="circle">
-                        <li>This color palette generator generates a new set of random colors along with their corresponding hex values.</li>
-                        <li>This app is perfect for designing and experimenting with different color schemes.</li>
-                        <br>Tech Stack : HTML | CSS | JavaScript
-                    </ul>
-
-                    <div class="view-src-link">
-                        <a href="https://github.com/adaphner/color-palette-generator" target="_blank" rel="noopener noreferrer">
-                            <button type="button" class="view-icon-btn">
-                                <span class="view-src-text">View Source code
-                                    <span class="view-src-icon">
-                                        <ion-icon name="code-slash-outline"></ion-icon>
-                                    </span>
-                                </span>
-                            </button>
-                        </a>
-                    </div>
+            <div class="project">
+                <div id="summary-total-div">  
+                    <div id="calculator-total">0</div>
                 </div>
-                <div class="project">
-                    <div id="hex-generator-div">
-                        <div class="hex-bgcolor"><p class="hex-number">#35788C</p></div>
-                        <div class="hex-bgcolor"><p class="hex-number">#6398AA</p></div>
-                        <div class="hex-bgcolor"><p class="hex-number">#5E8379</p></div>
-                        <div class="hex-bgcolor"><p class="hex-number">#79A1C7</p></div>
-                        <div class="hex-bgcolor"><p class="hex-number">#204666</p></div>
-                        <div class="hex-bgcolor"><p class="hex-number">#3F6B9B</p></div>
-                    </div>
-                    <div id="color-flipper" class="gen-btn-div">
-                        <button id="bg-color-button" class="gen-btn" type="button">Generate Random Colors</button>
-                    </div>
-                </div>
-            </div>
+                <div id="calculator-buttons-div">    
+                    <div id="clear-btn">AC</div>
+                    <div id="delete-btn">DEL</div>
+                    <div class="btn-operation">%</div>
+                    <div class="btn-operation">÷</div>
 
-            <div class="spaces"></div>
-            
-            <!-- counter app section -->
-            <div id="timer-main-container">
-                <div id="timer-wrapper">
-                    <div>
-                        <h2>Counter App</h2>
-                        <p id="timer">0</p>
-                        <h3 id="count">0</h3> 
-                    </div>
-                    <div id="btn-increment">
-                        <button type="button">+ INCREMENT</button>
-                    </div>
-                    <div id="btn-reset">
-                        <button type="button">RESET</button>
-                    </div>    
-                </div> 
-            </div>
-            
-            <div class="spaces"></div>
-            
-            <div class="project-wrapper">
-                <!-- password generator -->
-                <div class="description">
-                    <h2>Password Generator App</h2>
-                    <ul type="circle">
-                        <li>This app generates strong 10-15 digits password consisting of alphanumerical characters and symbols.</li>
-                        <li>Click the Generate Secure Password button to generate passwords.</li>
-                        <br>Tech Stack : HTML | CSS | JavaScript
-                    </ul>
+                    <div class="buttons">7</div>
+                    <div class="buttons">8</div>
+                    <div class="buttons">9</div>
+                    <div class="btn-operation">×</div>
 
-                    <div class="view-src-link">
-                        <a href="https://github.com/adaphner/password-generator" target="_blank" rel="noopener noreferrer">
-                            <button type="button" class="view-icon-btn">
-                                <span class="view-src-text">View Source code
-                                    <span class="view-src-icon">
-                                        <ion-icon name="code-slash-outline"></ion-icon>
-                                    </span>
-                                </span>
-                            </button>
-                        </a>
-                    </div>
-                </div>
-                <div class="project">
-                    <div class="pass-container">
-                        <div class="pass-div"><p id="pass-text">***************</p></div>
-                        <div class="len-div">Password Length: <span id="pass-len">0</span></div>
-                        <div id="btn-password-div" class="gen-btn-div">
-                            <button id="btn-password" class="gen-btn" type="button">Generate Secure Password</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                    <div class="buttons">4</div>
+                    <div class="buttons">5</div>
+                    <div class="buttons">6</div>
+                    <div class="btn-operation">-</div>
 
-            <div class="spaces"></div>
-            
-            <div class="project-wrapper">
-                <!-- fun facts Ssection -->
-                <div class="description">
-                    <h2>Fun Fact App</h2>
-                    <ul type="circle">
-                        <li>This app displays a random fun fact every minute.</li>
-                        <li>Click the lightbulb to cycle through all the fun facts without any delay.</li>
-                        <br>Tech Stack : HTML | CSS | JavaScript
-                    </ul>
+                    <div class="buttons">1</div>
+                    <div class="buttons">2</div>
+                    <div class="buttons">3</div>
+                    <div class="btn-operation">+</div>
 
-                    <div class="view-src-link">
-                        <a href="https://" target="_blank" rel="noopener noreferrer" target="_blank" rel="noopener noreferrer">
-                            <button type="button" class="view-icon-btn">
-                                <span class="view-src-text">View Source code
-                                    <span class="view-src-icon">
-                                        <ion-icon name="code-slash-outline"></ion-icon>
-                                    </span>
-                                </span>
-                            </button>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="project">
-                    <div class="fun-facts">
-                        <p id="fun-fact">[ Fun Facts ]</p>
-                    </div>
-                    <div class="dyk-div"> 
-                        <img id="dyk-lb" src="/images/lbg.png" alt="Light Bulb">
-                        <p>Turn on the light</p>
-                    </div>
+                    <div class="buttons">±</div>
+                    <div class="buttons">0</div>
+                    <div class="buttons">.</div>
+                    <div id="equal-btn">=</div>
                 </div>
             </div>
         </div>
 
         <div class="spaces"></div>
 
-        <!-- advance projects display -->
-        <div id="Advance" class="projects-content">
-
-            <!-- book keeping - react app -->
-            <div class="description book-keeping-desc">
-                <h2>BOOKKS</h2>
+        <!-- color palette generator -->
+        <div class="project-wrapper">
+            <div class="description">
+                <h2>Color Palette Generator</h2>
                 <ul type="circle">
-                    <li>Book Keeping Made Easy.</li>
-                    <li>This application keep tracks of a company's expenses and payments.</li>
-                    <li>Users are able search and filter through all the invoices in the database.</li>
-                    <li>Payment details are displayed when an invoice is clicked on.</li>
-                    <br>Framework: ReactJS
+                    <li>This color palette generator generates a new set of random colors along with their corresponding hex values.</li>
+                    <li>This app is perfect for designing and experimenting with different color schemes.</li>
                     <br>Tech Stack : HTML | CSS | JavaScript
                 </ul>
+
                 <div class="view-src-link">
-                    <a href="https://github.com/adaphner/book-keeping-react-app" target="_blank" rel="noopener noreferrer" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/adaphner/color-palette-generator" target="_blank" rel="noopener noreferrer">
+                        <button type="button" class="view-icon-btn">
+                            <span class="view-src-text">View Source code
+                                <span class="view-src-icon">
+                                    <ion-icon name="code-slash-outline"></ion-icon>
+                                </span>
+                            </span>
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div class="project">
+                <div id="hex-generator-div">
+                    <div class="hex-bgcolor"><p class="hex-number">#35788C</p></div>
+                    <div class="hex-bgcolor"><p class="hex-number">#6398AA</p></div>
+                    <div class="hex-bgcolor"><p class="hex-number">#5E8379</p></div>
+                    <div class="hex-bgcolor"><p class="hex-number">#79A1C7</p></div>
+                    <div class="hex-bgcolor"><p class="hex-number">#204666</p></div>
+                    <div class="hex-bgcolor"><p class="hex-number">#3F6B9B</p></div>
+                </div>
+                <div id="color-flipper" class="gen-btn-div">
+                    <button id="bg-color-button" class="gen-btn" type="button">Generate Random Colors</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="spaces"></div>
+            
+        <!-- counter app section -->
+        <div id="timer-main-container">
+            <div id="timer-wrapper">
+                <div>
+                    <h2>Counter App</h2>
+                    <p id="timer">0</p>
+                    <h3 id="count">0</h3> 
+                </div>
+                <div id="btn-increment">
+                    <button type="button">+ INCREMENT</button>
+                </div>
+                <div id="btn-reset">
+                    <button type="button">RESET</button>
+                </div>    
+            </div> 
+        </div>
+            
+        <div class="spaces"></div>
+            
+        <div class="project-wrapper">
+            <!-- password generator -->
+            <div class="description">
+                <h2>Password Generator App</h2>
+                <ul type="circle">
+                    <li>This app generates strong 10-15 digits password consisting of alphanumerical characters and symbols.</li>
+                    <li>Click the Generate Secure Password button to generate passwords.</li>
+                    <br>Tech Stack : HTML | CSS | JavaScript
+                </ul>
+
+                <div class="view-src-link">
+                    <a href="https://github.com/adaphner/password-generator" target="_blank" rel="noopener noreferrer">
+                        <button type="button" class="view-icon-btn">
+                            <span class="view-src-text">View Source code
+                                <span class="view-src-icon">
+                                    <ion-icon name="code-slash-outline"></ion-icon>
+                                </span>
+                            </span>
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div class="project">
+                <div class="pass-container">
+                    <div class="pass-div"><p id="pass-text">***************</p></div>
+                    <div class="len-div">Password Length: <span id="pass-len">0</span></div>
+                    <div id="btn-password-div" class="gen-btn-div">
+                        <button id="btn-password" class="gen-btn" type="button">Generate Secure Password</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="spaces"></div>
+            
+        <div class="project-wrapper">
+            <!-- fun facts Ssection -->
+            <div class="description">
+                <h2>Fun Fact App</h2>
+                <ul type="circle">
+                    <li>This app displays a random fun fact every minute.</li>
+                    <li>Click the lightbulb to cycle through all the fun facts without any delay.</li>
+                    <br>Tech Stack : HTML | CSS | JavaScript
+                </ul>
+
+                <div class="view-src-link">
+                    <a href="https://" target="_blank" rel="noopener noreferrer" target="_blank" rel="noopener noreferrer">
                         <button type="button" class="view-icon-btn">
                             <span class="view-src-text">View Source code
                                 <span class="view-src-icon">
@@ -388,119 +348,180 @@
                 </div>
             </div>
 
-            <section class="book-keeping-section">
-                <img src="/images/bookks.svg" alt="Book Keeping">
-            </section>
-
-            <div class="spaces"></div>
-
-            <!--Graphic Section JS Questions-->
-            <div class="graphic-divs">
-                <img src="/images/jsgraphic.png" alt="JavaScript 3D Graphic.">
-                <h4>JavaScript Interview Questions</h4>
-                <img src="/images/jsstudy.png" alt="JavaScript Study Graphic.">
-            </div>
-
-            <!--Interview Questions and Answers-->
-            <div class="qna-div" >
-                <p id="question">Questions</p>
-                <p id="answer">Answers</p>
-                <div class="question-btn-div">
-                    <button id="prev-question-btn" type="button">Previous Question</button>
-                    <button id="question-btn" type="button">Next Question</button>  
+            <div class="project">
+                <div class="fun-facts">
+                    <p id="fun-fact">[ Fun Facts ]</p>
+                </div>
+                <div class="dyk-div"> 
+                    <img id="dyk-lb" src="/images/lbg.png" alt="Light Bulb">
+                    <p>Turn on the light</p>
                 </div>
             </div>
+        </div>
 
-            <div class="spaces"></div>
+        <div class="spaces"></div>
 
-            <!-- quote section -->
-            <div id="quotes-div">
-                <img src="/images/webdeviologo.png" alt="WebDevIO Logo">
-                <p id="p-quote">Beast Mode</p>
-                <p id="p-author">Beast</p>
-                <button id="quote-btn" type="button">Next Quote</button>
+        <!-- book keeping - react app -->
+        <div class="description book-keeping-desc">
+            <h2>BOOKKS</h2>
+            <ul type="circle">
+                <li>Book Keeping Made Easy.</li>
+                <li>This application keep tracks of a company's expenses and payments.</li>
+                <li>Users are able search and filter through all the invoices in the database.</li>
+                <li>Payment details are displayed when an invoice is clicked on.</li>
+                <br>Framework: ReactJS
+                <br>Tech Stack : HTML | CSS | JavaScript
+            </ul>
+            <div class="view-src-link">
+                <a href="https://github.com/adaphner/book-keeping-react-app" target="_blank" rel="noopener noreferrer" target="_blank" rel="noopener noreferrer">
+                    <button type="button" class="view-icon-btn">
+                        <span class="view-src-text">View Source code
+                            <span class="view-src-icon">
+                                <ion-icon name="code-slash-outline"></ion-icon>
+                            </span>
+                        </span>
+                    </button>
+                </a>
             </div>
         </div>
+
+        <section class="book-keeping-section">
+            <img src="/images/bookks.svg" alt="Book Keeping">
+        </section>
+
+        <div class="spaces"></div>
+
+        <!-- quote section -->
+        <div id="quotes-div">
+            <img src="/images/webdeviologo.png" alt="WebDevIO Logo">
+            <p id="p-quote">Beast Mode</p>
+            <p id="p-author">Beast</p>
+            <button id="quote-btn" type="button">Next Quote</button>
+        </div>
+
+    </div>
+
+    <!-- Resources Content -->
+    <div id="Resources" class="page-content">
+        <div class="spaces"></div>
+
+        <!--Graphic Section JS Questions-->
+        <div class="graphic-divs">
+            <img src="/images/jsgraphic.png" alt="JavaScript 3D Graphic.">
+            <h4>JavaScript Interview Questions</h4>
+            <img src="/images/jsstudy.png" alt="JavaScript Study Graphic.">
+        </div>
+
+        <!--Interview Questions and Answers-->
+        <div class="qna-div" >
+            <p id="question">Questions</p>
+            <p id="answer">Answers</p>
+            <div class="question-btn-div">
+                <button id="prev-question-btn" type="button">Previous Question</button>
+                <button id="question-btn" type="button">Next Question</button>  
+            </div>
+        </div>
+
+        <div class="spaces"></div>
+
     </div>
 
     <!-- Resume Content Page -->
     <div id="Resume" class="page-content">
         <div id="resume-wrapper">
+
             <div class="spaces"></div>
+
             <div id="profile-container">
                 
                 <!-- left side of resume card -->
                 <div id="left-profile">
-                        <div class="name-and-title">
-                            <h1>Daphner Aulibrice</h1>
-                            <h3>Software Engineer</h3>
-                        </div>
-                        <div class="summary">
-                            <p>
-                                Experienced software engineer. Decorated and highly energetic leader with 11+ years of work experience and proven knowledge of software application development. 
-                                Strong skills in project planning, problem-solving, and detailed analysis related to system design and process improvement.
-                            </p>
-                        </div>
+
+                    <div class="name-and-title">
+                        <h1>Daphner Aulibrice</h1>
+                        <h3>Software Engineer</h3>
+                    </div>
+
+                    <div class="summary">
+                        <p>
+                            Experienced software engineer. Decorated and highly energetic leader with 11+ years of work experience and proven knowledge of software application development. 
+                            Strong skills in project planning, problem-solving, and detailed analysis related to system design and process improvement.
+                        </p>
+                    </div>
                         
-                        <div class="experience-title">  
-                            <h3>WORK EXPERIENCE</h3>
-                        </div>
-                        <div class="experience-div">
-                            <div class="experience">
-                                <div class="year-div">
-                                    <p class="exp-year">2020 - Current</p>
-                                </div>
-                                <div class="company">
-                                    <p>Software Engineer</p>
-                                    <p>FiconXD.com</p>
-                                </div>
+                    <div class="experience-title">  
+                        <h3>WORK EXPERIENCE</h3>
+                    </div>
+
+                    <div class="experience-div">
+                        
+                        <div class="experience">
+
+                            <div class="year-div">
+                                <p class="exp-year">2020 - Current</p>
                             </div>
-                            <div class="experience">
-                                <div class="year-div">
-                                    <p class="exp-year">2018 - 2020</p>
-                                </div>
-                                <div class="company">
-                                    <p>Learning Assistant</p>
-                                    <p>Florida Int University</p>
-                                </div>
-                            </div>
-                            <div class="experience">
-                                <div class="year-div">
-                                    <p class="exp-year">2015 - 2018</p>
-                                </div>
-                                <div class="company">
-                                    <p>Marine Safety Officer</p>
-                                    <p>Department of State</p>
-                                </div>
-                            </div>
-                            <div class="experience">
-                                <div class="year-div">
-                                    <p class="exp-year">2011 - 2015</p>
-                                </div>
-                                <div class="company">
-                                    <p>Flight Technician</p>
-                                    <p>U.S. Marine Corps</p>
-                                </div>
+
+                            <div class="company">
+                                <p>Software Engineer</p>
+                                <p>FiconXD.com</p>
                             </div>
                         </div>
-                        <div class="experience-title">
-                            <h3>SKILLS</h3>
+
+                        <div class="experience">
+                            <div class="year-div">
+                                <p class="exp-year">2018 - 2020</p>
+                            </div>
+                            <div class="company">
+                                <p>Learning Assistant</p>
+                                <p>Florida Int University</p>
+                            </div>
                         </div>
-                        <div class="exp-info">
-                            <p>HTML | CSS | JavaScript | React | NodeJS | Express | Python | Flask | MySQL | MongoDB</p>
+
+                        <div class="experience">
+                            <div class="year-div">
+                                <p class="exp-year">2015 - 2018</p>
+                            </div>
+                            <div class="company">
+                                <p>Marine Safety Officer</p>
+                                <p>Department of State</p>
+                            </div>
                         </div>
+
+                        <div class="experience">
+                            <div class="year-div">
+                                <p class="exp-year">2011 - 2015</p>
+                            </div>
+                            <div class="company">
+                                <p>Flight Technician</p>
+                                <p>U.S. Marine Corps</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="experience-title">
+                        <h3>SKILLS</h3>
+                    </div>
+
+                    <div class="exp-info">
+                        <p>HTML | CSS | JavaScript | React | NodeJS | Express | Python | Flask | MySQL | MongoDB</p>
+                    </div>
+
                 </div>
 
                 <!-- right side of resume card -->
                 <div id="right-profile">
+
                     <div class="experience-title">
                         <h3>EDUCATION</h3>
                     </div>
+
                     <div class="exp-info">
                         <p>B.S. Information Technology</p>
                         <p>Graduated Magna Cum Laude</p>
                         <p class="exp-year">2018 - 2020</p>
                     </div>
+
                     <div class="exp-info">
                         <p>A.A. General Studies</p>
                         <p class="exp-year">2016 - 2018</p>
@@ -509,6 +530,7 @@
                     <div class="experience-title">
                         <h3>MILITARY AWARDS</h3>
                     </div>
+
                     <div class="exp-info">
                         <p>Navy and Marine Corps Achievement Medal</p>
                     </div>
@@ -516,12 +538,15 @@
                     <div class="experience-title">
                         <h3>CONTACT</h3>
                     </div>
+
                     <div class="exp-info">
                         Email: <a href="mailto:aulibriced@gmail.com">aulibriced@gmail.com</a>
                     </div>
+
                     <div class="experience-title">
                         <h3>PROFILE</h3>
                     </div>
+
                     <div class="profile">
                         <a href="https://www.linkedin.com/in/daphner-aulibrice" target="_blank">
                             LinkedIn
@@ -530,16 +555,21 @@
                             GitHub
                         </a>
                     </div>
+
                     <div class="download">
                         <a href="/files/A-Daphner-Resume.pdf" download="Daphner-Aulibrice-Resume">
                             <button type="button">DOWNLOAD MY RESUME</button>
                         </a>
-                    </div>     
+                    </div>
+
                 </div>
+
             </div>
+
         </div>
         <div class="spaces"></div>
     </div>
+
     <footer>
         <div class="da-logo">
             <span id="scroll-to-top" class="back-to-top"><ion-icon name="chevron-up-outline"></ion-icon></span>
@@ -553,18 +583,25 @@
                 <h3>Software Engineer</h3>
             </div>
             <div class="footer-social">
-                <a href="https://www.linkedin.com/in/daphner-aulibrice/" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/adaphner/" target="_blank" rel="noopener noreferrer">
                     <img id="linkedin-icon" class="ft-social-icons" src="/images/linked-in-white.svg" alt="LinkedIn">
                 </a>
                 <a href="https://github.com/adaphner" target="_blank" rel="noopener noreferrer">
                     <img id="github-icon" class="ft-social-icons" src="/images/git-hub-white.svg" alt="GitHub">
                 </a>
                 <a href="mailto:aulibriced@gmail.com">
-                    <img id="email-icon" class="ft-social-icons" src="/images/email-white.svg" alt="GitHub">
+                    <img id="email-icon" class="ft-social-icons" src="/images/email-white.svg" alt="Email">
                 </a>
             </div>
         </div>
+
+        <div id="copyright">
+            <span>2022 &copy Daphner Aulibrice. All rights reserved.</span>
+        </div>
+
     </footer>
+
     <div class="spaces"></div>  
+
 </body>
 </html>
