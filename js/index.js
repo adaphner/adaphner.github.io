@@ -12,13 +12,13 @@ function updatePage(page, nav) {
     //reset pages display
     document.querySelectorAll('.page-content').forEach((pgs) => pgs.style.display = 'none');
     document.querySelectorAll('.nav-tab').forEach((navs) => {
-        navs.style.backgroundColor = '#273043';
+        navs.style.color = '#f1f1f1';
     });
 
     //to show the content of the clicked tab
     const showPage = document.getElementById(page);
     showPage.style.display = 'flex';
-    nav.style.backgroundColor = '#ee6c4d';
+    nav.style.color = '#ee6c4d';
 }
 
 window.onscroll = () => {
