@@ -67,3 +67,14 @@ document.getElementById('scroll-to-top').addEventListener('click', () => {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
 });
+
+// scrolling animation
+const observer = new IntersectionObserver(elements => {
+    elements.forEach(el => {
+        console.log(el);
+        if (el.isIntersecting) el.target.classList.add('show');
+        else el.target.classList.remove('show');
+    });
+});
+const hiddenAnimation = document.querySelectorAll('.hidden');
+hiddenAnimation.forEach(el => observer.observe(el));

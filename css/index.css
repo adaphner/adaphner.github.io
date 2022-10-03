@@ -284,6 +284,52 @@ body {
     font-size: 32px;
 }
 
+/* spinning icon animation */
+@media (prefers-reduced-motion: no-preference) {
+    ion-icon[name="settings-outline"] {
+        animation: tools-icon-spin infinite 20s linear;
+    }
+}
+
+@keyframes tools-icon-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* scrolling animation */
+.hidden {
+    opacity: 0;
+    filter: blur(2px);
+    transform: translateX(-50%);
+    transition: none;
+}
+
+@media(prefers-reduced-motion: no-preference) {
+    .hidden {
+        transition: all 1s;
+    }
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+.exp-cards:nth-child(2) {
+    transition-delay: 200ms;
+}
+
+.exp-cards:nth-child(3) {
+    transition-delay: 400ms;
+}
+
+
 @media screen and (max-width: 810px) {
     .exp-cards:nth-child(1) {
         max-width: 405px;
