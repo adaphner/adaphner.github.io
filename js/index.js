@@ -71,7 +71,6 @@ document.getElementById('scroll-to-top').addEventListener('click', () => {
 // scrolling animation
 const observer = new IntersectionObserver(elements => {
     elements.forEach(el => {
-        console.log(el);
         if (el.isIntersecting) el.target.classList.add('show');
         else el.target.classList.remove('show');
     });
