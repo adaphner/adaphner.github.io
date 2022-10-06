@@ -95,6 +95,12 @@ body {
     background-color: var(--white-bg);
 }
 
+#bg-img {
+    width: 100%;
+    background: #fff url(/images/foggy-forest.jpg) center center/cover no-repeat;
+    padding: 50px 0;
+}
+
 .bg-wrapper {
     display: flex;
     flex-wrap: wrap;
@@ -109,7 +115,7 @@ body {
     width: 100%;
     max-width: 700px;
     padding: 0 25px;
-    color: #444444;
+    color: var(--main-font-color);
 }
 
 .bio-image {
@@ -149,7 +155,6 @@ body {
 .short-bio h1 {
     font-size: 34px;
     color: var(--title-blue);
-    /* color: var(--text-orange); */
     padding: 20px 0 20px 0;
 }
 
@@ -357,7 +362,12 @@ body {
     }
 }
 
-.portfolio-more {
+#quote-bg {
+    width: 100%;
+    background: #fff url(/images/foggy-forest.jpg) center center/cover no-repeat;
+}
+
+.single-quote {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -365,7 +375,7 @@ body {
     padding: 0 25px;
     width: 100%;
     height: 200px;
-    color: var(--title-blue);
+    color: var(--main-font-color);
 }
 
 /* Links and Social Section */
