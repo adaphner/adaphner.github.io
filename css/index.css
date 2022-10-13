@@ -218,19 +218,18 @@ body {
     align-items: center;
     width: 300px;
     height: 45px;
-    padding-top: 2px;
     border: 1px solid var(--main-bg-color);
     border-radius: 5px;
     color: var(--title-blue);
 }
 
-.btn-bio-icon {
-    width: 35px;
-    height: 35px;
+.btn-bio-div a {
+    text-decoration: underline;
+    color: #3f6b9b;
 }
 
-.btn-bio-icon:hover {
-    transform: rotate(10deg);
+.btn-bio-div a:hover {
+    color: var(--text-green)
 }
 
 .portfolio-content {
