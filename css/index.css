@@ -95,7 +95,7 @@ body {
     background-color: var(--white-bg);
 }
 
-#bg-img {
+#bio-bg-img {
     width: 100%;
     /* background: #fff url(/images/foggy-forest.jpg) center center/cover no-repeat; */
     padding: 50px 0;
@@ -115,13 +115,14 @@ body {
     width: 100%;
     max-width: 700px;
     padding: 0 25px;
-    color: #333333;
+    color: #444444;
 }
 
 .bio-image {
     width: 350px;
     height: 350px;
-    background-image: url('/images/launch-day.svg');
+    /* background-image: url('/images/launch-day.svg'); */
+    background-image: url('/images/profile-black.png');
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -158,6 +159,10 @@ body {
     padding: 20px 0 20px 0;
 }
 
+.j-title {
+    color: #222222;
+}
+
 .bio-btns-main {
     display: flex;
     flex-wrap: wrap;
@@ -166,7 +171,7 @@ body {
     padding: 25px 0;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 950px) {
     .short-bio {
         text-align: center;
     }
@@ -309,6 +314,7 @@ body {
     font-size: 32px;
 }
 
+
 /* spinning icon animation */
 @media (prefers-reduced-motion: no-preference) {
     ion-icon[name="settings-outline"] {
@@ -381,6 +387,10 @@ body {
     }
 }
 
+.badges-title {
+    color: var(--title-blue);
+}
+
 #quote-bg {
     width: 100%;
     background: var(--white-bg);
@@ -394,8 +404,8 @@ body {
     padding: 0 25px;
     width: 100%;
     height: 200px;
-    color: #333333;
     color: var(--title-blue);
+    background-color: var(--off-white-bg);
 }
 
 /* Links and Social Section */
