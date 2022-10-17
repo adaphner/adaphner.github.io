@@ -340,7 +340,6 @@ body {
     transition: none;
 }
 
-
 @media(prefers-reduced-motion: no-preference) {
 
     .hidden {
@@ -387,13 +386,26 @@ body {
     }
 }
 
+#quote-bg {
+    width: 100%;
+    background-color: #f1f1f1;
+}
+
 .badges-title {
     color: var(--title-blue);
 }
 
-#quote-bg {
+.badges-div {
+    display: flex;
+    flex-wrap: wrap;
     width: 100%;
-    background: var(--white-bg);
+    max-width: 1200px;
+    padding-bottom: 25px;
+}
+
+.badges {
+    width: 180px;
+    height: 180px;
 }
 
 .single-quote {
