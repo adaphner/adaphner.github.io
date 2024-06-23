@@ -144,7 +144,7 @@ function displayTime() {
         // document.getElementById("timer").innerText = days[date.getDay()] + " " + date.toLocaleTimeString();
         document.getElementById("timer").innerText = date.toLocaleTimeString();
     }, 1000);
-};
+}
 displayTime();
 
 
@@ -204,7 +204,7 @@ function getFunFacts() {
             displayFunFact.innerText = `${fact[randomFact].funfact}`;
         })
         .catch((err) => console.log("Something went wrong." + err));
-};
+}
 getFunFacts();
 setInterval(getFunFacts, 60000);
 
