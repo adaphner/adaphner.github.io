@@ -2,7 +2,7 @@
 
 ## Experienced software engineer with 11+ years of work experience. 
 
-Thank you for visiting my portfolio site. Please reach out if you have any questions or comments.
+Thank you for visiting this site. Please reach out if you have any questions or comments.
 
 Tech Stack: HTML - CSS - JavaScript
 
