@@ -28,6 +28,7 @@ body {
     min-width: 100vw;
     scroll-behavior: smooth;
     cursor: default;
+    overflow-x: hidden;
 }
 
 #navigation {
@@ -122,8 +123,6 @@ body {
     width: 350px;
     height: 350px;
     border-radius: 50%;
-    /* background-image: url('/images/launch-day.svg'); */
-    /* background-image: url('/images/profile-black.png'); */
     background-image: url('/images/da-pic.jpg');
     background-repeat: no-repeat;
     background-size: contain;
