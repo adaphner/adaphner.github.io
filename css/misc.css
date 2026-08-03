@@ -199,6 +199,10 @@
         padding: 16px 20px;
         font-size: 1.1rem;
     }
+
+    .space {
+        height: 0.1rem;
+    }
 }
 
 /*
