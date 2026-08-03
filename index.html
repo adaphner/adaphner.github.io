@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-us">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,9 +18,11 @@
     <link rel="stylesheet" type="text/css" href="css/index.css">
     <link rel="stylesheet" type="text/css" href="css/portfolio.css">
     <link rel="stylesheet" type="text/css" href="css/resume.css">
+    <link rel="stylesheet" type="text/css" href="css/misc.css">
     <script src="js/index.js" defer></script>
     <script src="js/portfolio.js" defer></script>
     <script src="js/resume.js" defer></script>
+    <script src="js/misc.js" defer></script>
 </head>
 
 <body>
@@ -32,7 +35,8 @@
             <button type="button" id="default" class="nav-tab">Profile</button>
             <button type="button" class="nav-tab">Portfolio</button>
             <button type="button" class="nav-tab">Resources</button>
-            <button type="button" class="nav-tab">Resume</button>
+            <!-- <button type="button" class="nav-tab">Resume</button> -->
+            <button type="button" class="nav-tab">Misc</button>
         </div>
     </nav>
 
@@ -54,11 +58,12 @@
                         <h1>Daphner Aulibrice</h1>
                         <p class="j-title">Software Engineer Sr | Entrepreneur | USMC Veteran</p>
                     </div>
-        
+
                     <div class="short-bio">
-                        <p>Specialised in frontend and backend development of complex and scalable software applications.</p>
+                        <p>Specialised in frontend and backend development of complex and scalable software
+                            applications.</p>
                     </div>
-        
+
                     <div class="bio-btns-main">
                         <div class="bio-btn-container">
                             <a href="mailto:aulibriced@gmail.com">
@@ -73,7 +78,8 @@
 
                         <div class="btn-bio-div">
                             <span>Profile:</span>
-                            <a href="https://linkedin.com/in/daphner-aulibrice" target="_blank" rel="noopener noreferrer">
+                            <a href="https://linkedin.com/in/daphner-aulibrice" target="_blank"
+                                rel="noopener noreferrer">
                                 LinkedIn
                             </a>
                             <a href="https://github.com/adaphner" target="_blank" rel="noopener noreferrer">
@@ -112,7 +118,7 @@
                             <ion-icon name="briefcase-outline"></ion-icon>
                         </span>
                     </div>
-                </section> 
+                </section>
                 <section class="cards exp-cards hidden">
                     <div class="inner-exp-cards">
                         <h2>50+</h2>
@@ -134,7 +140,7 @@
             </div>
 
             <h2 class="cards-title">Technical Skills</h2>
-            
+
             <div class="cards-section">
                 <section class="cards skill-cards">
                     <div class="inner-skill-cards">
@@ -155,7 +161,7 @@
                         <p>Python / Flask</p>
                     </div>
                 </section>
-                
+
                 <section class="cards skill-cards">
                     <div class="inner-skill-cards">
                         <span class="cards-icon">
@@ -174,17 +180,17 @@
                         <p>Jira / Confluence</p>
                         <p>GitLab / GitHub</p>
                     </div>
-                </section>  
+                </section>
             </div>
 
         </div>
 
         <div id="quote-bg">
-            
+
             <h2 class="cards-title badges-title">Courses & Certifications</h2>
-            
+
             <div class="badges-div hidden">
-                
+
                 <a href="https://www.credly.com/badges/42493e78-84a5-49d1-a46c-402330c052c7" target="_blank">
                     <img class="badges" src="/images/devops-essentials.png" alt="DevOps Essentials">
                 </a>
@@ -210,7 +216,8 @@
                 <ul type="circle">
                     <li>Fully functional calculator application.</li>
                     <li>Responsive and beautifully designed user interface.</li>
-                    <li>Perform basic calculations such as addition, subtraction, division, multiplication, and modulo operations.</li>
+                    <li>Perform basic calculations such as addition, subtraction, division, multiplication, and modulo
+                        operations.</li>
                     <br> Tech Stack : HTML | CSS | JavaScript
                 </ul>
 
@@ -227,10 +234,10 @@
                 </div>
             </div>
             <div class="project">
-                <div id="summary-total-div">  
+                <div id="summary-total-div">
                     <div id="calculator-total">0</div>
                 </div>
-                <div id="calculator-buttons-div">    
+                <div id="calculator-buttons-div">
                     <div id="clear-btn">AC</div>
                     <div id="delete-btn">DEL</div>
                     <div class="btn-operation">%</div>
@@ -266,13 +273,15 @@
             <div class="description">
                 <h2>Color Palette Generator</h2>
                 <ul type="circle">
-                    <li>This color palette generator generates a new set of random colors along with their corresponding hex values.</li>
+                    <li>This color palette generator generates a new set of random colors along with their corresponding
+                        hex values.</li>
                     <li>This app is perfect for designing and experimenting with different color schemes.</li>
                     <br>Tech Stack : HTML | CSS | JavaScript
                 </ul>
 
                 <div class="view-src-link">
-                    <a href="https://github.com/adaphner/color-palette-generator" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/adaphner/color-palette-generator" target="_blank"
+                        rel="noopener noreferrer">
                         <button type="button" class="view-icon-btn">
                             <span class="view-src-text">View Source Code
                                 <span class="view-src-icon">
@@ -285,12 +294,24 @@
             </div>
             <div class="project">
                 <div id="hex-generator-div">
-                    <div class="hex-bgcolor"><p class="hex-number">#35788C</p></div>
-                    <div class="hex-bgcolor"><p class="hex-number">#6398AA</p></div>
-                    <div class="hex-bgcolor"><p class="hex-number">#5E8379</p></div>
-                    <div class="hex-bgcolor"><p class="hex-number">#79A1C7</p></div>
-                    <div class="hex-bgcolor"><p class="hex-number">#204666</p></div>
-                    <div class="hex-bgcolor"><p class="hex-number">#3F6B9B</p></div>
+                    <div class="hex-bgcolor">
+                        <p class="hex-number">#35788C</p>
+                    </div>
+                    <div class="hex-bgcolor">
+                        <p class="hex-number">#6398AA</p>
+                    </div>
+                    <div class="hex-bgcolor">
+                        <p class="hex-number">#5E8379</p>
+                    </div>
+                    <div class="hex-bgcolor">
+                        <p class="hex-number">#79A1C7</p>
+                    </div>
+                    <div class="hex-bgcolor">
+                        <p class="hex-number">#204666</p>
+                    </div>
+                    <div class="hex-bgcolor">
+                        <p class="hex-number">#3F6B9B</p>
+                    </div>
                 </div>
                 <div id="color-flipper" class="gen-btn-div">
                     <button id="bg-color-button" class="gen-btn" type="button">Generate Random Colors</button>
@@ -299,32 +320,33 @@
         </div>
 
         <div class="spaces"></div>
-            
+
         <!-- counter app section -->
         <div id="timer-main-container">
             <div id="timer-wrapper">
                 <div>
                     <h2>Counter</h2>
                     <p id="timer">0</p>
-                    <h3 id="count">0</h3> 
+                    <h3 id="count">0</h3>
                 </div>
                 <div id="btn-increment">
                     <button type="button">+ INCREMENT</button>
                 </div>
                 <div id="btn-reset">
                     <button type="button">RESET</button>
-                </div>    
-            </div> 
+                </div>
+            </div>
         </div>
-            
+
         <div class="spaces"></div>
-            
+
         <div class="project-wrapper">
             <!-- password generator -->
             <div class="description">
                 <h2>Password Generator</h2>
                 <ul type="circle">
-                    <li>This app generates strong 10-15 digits password consisting of alphanumerical characters and symbols.</li>
+                    <li>This app generates strong 10-15 digits password consisting of alphanumerical characters and
+                        symbols.</li>
                     <li>Click the Generate Secure Password button to generate passwords.</li>
                     <br>Tech Stack : HTML | CSS | JavaScript
                 </ul>
@@ -343,7 +365,9 @@
             </div>
             <div class="project">
                 <div class="pass-container">
-                    <div class="pass-div"><p id="pass-text">***************</p></div>
+                    <div class="pass-div">
+                        <p id="pass-text">***************</p>
+                    </div>
                     <div class="len-div">Password Length: <span id="pass-len">0</span></div>
                     <div id="btn-password-div" class="gen-btn-div">
                         <button id="btn-password" class="gen-btn" type="button">Generate Secure Password</button>
@@ -353,7 +377,7 @@
         </div>
 
         <div class="spaces"></div>
-            
+
         <div class="project-wrapper">
             <!-- fun facts Ssection -->
             <div class="description">
@@ -365,7 +389,8 @@
                 </ul>
 
                 <div class="view-src-link">
-                    <a href="https://" target="_blank" rel="noopener noreferrer" target="_blank" rel="noopener noreferrer">
+                    <a href="https://" target="_blank" rel="noopener noreferrer" target="_blank"
+                        rel="noopener noreferrer">
                         <button type="button" class="view-icon-btn">
                             <span class="view-src-text">View Source Code
                                 <span class="view-src-icon">
@@ -381,7 +406,7 @@
                 <div class="fun-facts">
                     <p id="fun-fact">[ Fun Facts ]</p>
                 </div>
-                <div class="dyk-div"> 
+                <div class="dyk-div">
                     <img id="dyk-lb" src="/images/lbg.png" alt="Light Bulb">
                     <p>Turn on the light</p>
                 </div>
@@ -402,7 +427,8 @@
                 <br>Tech Stack : HTML | CSS | JavaScript
             </ul>
             <div class="view-src-link">
-                <a href="https://github.com/adaphner/book-keeping-react-app" target="_blank" rel="noopener noreferrer" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/adaphner/book-keeping-react-app" target="_blank" rel="noopener noreferrer"
+                    target="_blank" rel="noopener noreferrer">
                     <button type="button" class="view-icon-btn">
                         <span class="view-src-text">View Source Code
                             <span class="view-src-icon">
@@ -442,12 +468,12 @@
         </div>
 
         <!--Interview Questions and Answers-->
-        <div class="qna-div" >
+        <div class="qna-div">
             <p id="question">Questions</p>
             <p id="answer">Answers</p>
             <div class="question-btn-div">
                 <button id="prev-question-btn" type="button">Previous Question</button>
-                <button id="question-btn" type="button">Next Question</button>  
+                <button id="question-btn" type="button">Next Question</button>
             </div>
         </div>
 
@@ -456,154 +482,78 @@
     </div>
 
     <!-- Resume Content Page -->
-    <div id="Resume" class="page-content">
-        <div id="resume-wrapper">
 
-            <div class="spaces"></div>
 
-            <div id="profile-container">
-                
-                <!-- left side of resume card -->
-                <div id="left-profile">
-
-                    <div class="name-and-title">
-                        <h1>Daphner Aulibrice</h1>
-                        <h3>Software Engineer Sr</h3>
-                    </div>
-
-                    <div class="summary">
-                        <p>
-                            Experienced software engineer with 15+ years of work experience and proven knowledge of software application development. 
-                            Strong skills in project planning, problem-solving, and detailed analysis related to system design and process improvement.
-                        </p>
-                    </div>
-                        
-                    <div class="experience-title">  
-                        <h3>WORK EXPERIENCE</h3>
-                    </div>
-
-                    <div class="experience-div">
-
-                        <div class="experience">
-                            <div class="year-div">
-                                <p class="exp-year">2022 - Current</p>
-                            </div>
-
-                            <div class="company">
-                                <p>Software Engineer Sr at Lockheed Martin</p>
-                            </div>
-                        </div>
-                        
-                        <div class="experience">
-                            <div class="year-div">
-                                <p class="exp-year">2020 - 2022</p>
-                            </div>
-
-                            <div class="company">
-                                <p>Software Engineer at FiconXD.com</p>
-                            </div>
-                        </div>
-
-                        <div class="experience">
-                            <div class="year-div">
-                                <p class="exp-year">2018 - 2020</p>
-                            </div>
-                            <div class="company">
-                                <p>Learning Assistant at Florida Int University</p>
-                            </div>
-                        </div>
-
-                        <div class="experience">
-                            <div class="year-div">
-                                <p class="exp-year">2015 - 2018</p>
-                            </div>
-                            <div class="company">
-                                <p>Marine Safety Officer at Department of State</p>
-                            </div>
-                        </div>
-
-                        <div class="experience">
-                            <div class="year-div">
-                                <p class="exp-year">2011 - 2015</p>
-                            </div>
-                            <div class="company">
-                                <p>Flight Technician at U.S. Marine Corps</p>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div class="experience-title">
-                        <h3>TECHNICAL SKILLS</h3>
-                    </div>
-
-                    <div class="exp-info">
-                        <p>Angular | TypeScript | NestJS | REST API | MongoDB | Python | WebSocket | GitLab CI/CD</p>
-                    </div>
-
+    <!-- Misc Content -->
+    <div id="Misc" class="page-content">
+        <div class="misc-container">
+            <!-- <h2>Execution</h2> -->
+            <div class="checklist-item">
+                <p>Pre-Market checklist completed:</p>
+                <div class="toggle-group">
+                    <input type="radio" id="market-structure-yes" name="market-structure" value="yes"
+                        class="toggle-positive">
+                    <label for="market-structure-yes">Yes</label>
+                    <input type="radio" id="market-structure-no" name="market-structure" value="no" checked>
+                    <label for="market-structure-no">No</label>
                 </div>
-
-                <!-- right side of resume card -->
-                <div id="right-profile">
-
-                    <div class="experience-title">
-                        <h3>EDUCATION</h3>
-                    </div>
-
-                    <div class="exp-info">
-                        <p>Bachelor of Science in Information Technology</p>
-                        <p>Florida International University</p>
-                        <p class="exp-year">2018 - 2020</p>
-                    </div>
-
-                    <div class="exp-info">
-                        <p>A.A. General Studies</p>
-                        <p>Palm Beach State College</p>
-                        <p class="exp-year">2016 - 2018</p>
-                    </div>
-                    
-                    <div class="experience-title">
-                        <h3>MILITARY AWARDS</h3>
-                    </div>
-
-                    <div class="exp-info">
-                        <p>Navy and Marine Corps Achievement Medal</p>
-                    </div>
-
-                    <div class="experience-title">
-                        <h3>CONTACT</h3>
-                    </div>
-
-                    <div class="exp-info">
-                        Email: <a href="mailto:aulibriced@gmail.com">aulibriced@gmail.com</a>
-                    </div>
-
-                    <div class="experience-title">
-                        <h3>PROFILE</h3>
-                    </div>
-
-                    <div class="profile">
-                        <a href="https://linkedin.com/in/daphner-aulibrice" target="_blank">
-                            LinkedIn
-                        </a>
-                        <a href="https://github.com/adaphner" target="_blank">
-                            GitHub
-                        </a>
-                    </div>
-
-                    <div class="download">
-                        <a href="mailto:aulibriced@gmail.com">
-                            <button type="button">SEND ME AN EMAIL</button>
-                        </a>
-                        <!-- <a href="/files/resume.pdf" download="Daphner-Aulibrice-Resume">
-                            <button type="button">DOWNLOAD MY RESUME</button>
-                        </a> -->
-                    </div>
-
-                </div>
-
             </div>
 
+            <div class="checklist-item">
+                <p>Price at key level:</p>
+                <div class="toggle-group">
+                    <input type="radio" id="key-level-yes" name="key-level" value="yes" class="toggle-positive">
+                    <label for="key-level-yes">Yes</label>
+                    <input type="radio" id="key-level-no" name="key-level" value="no" checked>
+                    <label for="key-level-no">No</label>
+                </div>
+            </div>
+
+            <div class="checklist-item">
+                <p>Risk defined:</p>
+                <div class="toggle-group">
+                    <input type="radio" id="risk-defined-yes" name="risk-defined" value="yes" class="toggle-positive">
+                    <label for="risk-defined-yes">Yes</label>
+                    <input type="radio" id="risk-defined-no" name="risk-defined" value="no" checked>
+                    <label for="risk-defined-no">No</label>
+                </div>
+            </div>
+
+            <div class="checklist-item">
+                <p>Regular market structure:</p>
+                <div class="toggle-group">
+                    <input type="radio" id="daily-trend-bullish" name="daily-trend" value="bullish"
+                        class="toggle-positive">
+                    <label for="daily-trend-bullish">Bullish</label>
+                    <input type="radio" id="daily-trend-range" name="daily-trend" value="range" class="toggle-neutral"
+                        checked>
+                    <label for="daily-trend-range">Range</label>
+                    <input type="radio" id="daily-trend-bearish" name="daily-trend" value="bearish">
+                    <label for="daily-trend-bearish">Bearish</label>
+                </div>
+            </div>
+
+            <div class="checklist-item">
+                <p>Overnight market structure:</p>
+                <div class="toggle-group">
+                    <input type="radio" id="premarket-bullish" name="premarket-status" value="bullish"
+                        class="toggle-positive">
+                    <label for="premarket-bullish">Bullish</label>
+                    <input type="radio" id="premarket-range" name="premarket-status" value="range"
+                        class="toggle-neutral" checked>
+                    <label for="premarket-range">Range</label>
+                    <input type="radio" id="premarket-bearish" name="premarket-status" value="bearish">
+                    <label for="premarket-bearish">Bearish</label>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="misc-container">
+            <!-- <h2>Summary</h2> -->
+            <div class="summary-status-container">
+                <span id="summary-status">Wait</span>
+            </div>
         </div>
         <div class="spaces"></div>
     </div>
@@ -639,7 +589,8 @@
 
     </footer>
 
-    <div class="spaces"></div>  
+    <div class="spaces"></div>
 
 </body>
+
 </html>
