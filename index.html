@@ -490,23 +490,23 @@
         <div class="misc-container">
             <!-- <h2>Execution</h2> -->
             <div class="checklist-item">
-                <p>Pre-Market checklist completed</p>
-                <div class="toggle-group">
-                    <input type="radio" id="market-structure-yes" name="market-structure" value="yes"
-                        class="toggle-positive">
-                    <label for="market-structure-yes">Yes</label>
-                    <input type="radio" id="market-structure-no" name="market-structure" value="no" checked>
-                    <label for="market-structure-no">No</label>
-                </div>
-            </div>
-
-            <div class="checklist-item">
                 <p>Price at key level</p>
                 <div class="toggle-group">
                     <input type="radio" id="key-level-yes" name="key-level" value="yes" class="toggle-positive">
                     <label for="key-level-yes">Yes</label>
                     <input type="radio" id="key-level-no" name="key-level" value="no" checked>
                     <label for="key-level-no">No</label>
+                </div>
+            </div>
+
+            <div class="checklist-item">
+                <p>First 15-minute candle</p>
+                <div class="toggle-group">
+                    <input type="radio" id="market-structure-yes" name="first-15-minute" value="yes"
+                        class="toggle-positive">
+                    <label for="market-structure-yes">Yes</label>
+                    <input type="radio" id="market-structure-no" name="first-15-minute" value="no" checked>
+                    <label for="market-structure-no">No</label>
                 </div>
             </div>
 
@@ -520,8 +520,22 @@
                 </div>
             </div>
 
+            <!-- <div class="checklist-item">
+                <p>Weekly market structure</p>
+                <div class="toggle-group">
+                    <input type="radio" id="weekly-trend-bullish" name="weekly-trend" value="bullish"
+                        class="toggle-positive">
+                    <label for="weekly-trend-bullish">Bullish</label>
+                    <input type="radio" id="weekly-trend-range" name="weekly-trend" value="range"
+                        class="toggle-neutral" checked>
+                    <label for="weekly-trend-range">Range</label>
+                    <input type="radio" id="weekly-trend-bearish" name="weekly-trend" value="bearish">
+                    <label for="weekly-trend-bearish">Bearish</label>
+                </div>
+            </div> -->
+
             <div class="checklist-item">
-                <p>Regular market structure</p>
+                <p>Daily market structure</p>
                 <div class="toggle-group">
                     <input type="radio" id="daily-trend-bullish" name="daily-trend" value="bullish"
                         class="toggle-positive">
@@ -535,16 +549,16 @@
             </div>
 
             <div class="checklist-item">
-                <p>Overnight market structure</p>
+                <p>Current directional bias</p>
                 <div class="toggle-group">
-                    <input type="radio" id="premarket-bullish" name="premarket-status" value="bullish"
+                    <input type="radio" id="bias-bullish" name="bias-status" value="bullish"
                         class="toggle-positive">
-                    <label for="premarket-bullish">Bullish</label>
-                    <input type="radio" id="premarket-range" name="premarket-status" value="range"
+                    <label for="bias-bullish">Bullish</label>
+                    <input type="radio" id="bias-range" name="bias-status" value="range"
                         class="toggle-neutral" checked>
-                    <label for="premarket-range">Range</label>
-                    <input type="radio" id="premarket-bearish" name="premarket-status" value="bearish">
-                    <label for="premarket-bearish">Bearish</label>
+                    <label for="bias-range">Range</label>
+                    <input type="radio" id="bias-bearish" name="bias-status" value="bearish">
+                    <label for="bias-bearish">Bearish</label>
                 </div>
             </div>
 

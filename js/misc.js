@@ -16,13 +16,13 @@
     // Group definitions
     const YES_NO_GROUPS = [
         'key-level',
-        'market-structure',
+        'first-15-minute',
         'risk-defined'
     ];
 
     const TREND_GROUPS = [
         'daily-trend',
-        'premarket-status'
+        'bias-status'
     ];
 
     const GROUPS = [...YES_NO_GROUPS, ...TREND_GROUPS];
